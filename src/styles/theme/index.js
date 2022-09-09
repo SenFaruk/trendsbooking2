@@ -27,19 +27,7 @@ const theme = createTheme({
         },
        
     },
-    components:{
-        typography: {
-            poster: {
-              color: 'blue',
-            },
-            // Disable h3 variant
-            h3: undefined,
-          },
-            
-            
-
-        }
-
+    
     }
 )
 
