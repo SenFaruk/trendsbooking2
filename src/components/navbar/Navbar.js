@@ -7,7 +7,10 @@ import Rectangle62 from "../../assets/Rectangle 62.svg";
 
 const Navbar = () => {
   return (
-    <AppBar position="relative" sx={{ boxShadow: "none", margin: "15px" }}>
+    <Stack sx={{
+      margin:"10px 50px 10px 50px"
+    }}>
+    <AppBar position="relative" sx={{ boxShadow: "none"}}>
       <Toolbar>
         <Stack direction="row" sx={{ flexGrow: 1 }}>
           <Typography
@@ -52,7 +55,8 @@ const Navbar = () => {
           </Stack>
         </Stack>
 
-        <Stack direction="row" spacing={2}>
+        <Stack direction="row" spacing={4}
+        >
           <Button
             variant="text"
             size="large"
@@ -93,6 +97,7 @@ const Navbar = () => {
         </Stack>
       </Toolbar>
     </AppBar>
+    </Stack>
   );
 };
 
