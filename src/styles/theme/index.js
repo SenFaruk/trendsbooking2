@@ -6,6 +6,7 @@ export const Colors = {
   primary: "#ffffff",
   secondary: "#ED6A5B",
   mycolor:"#F65936",
+  myblack:"#07232C",
   
 //  success: "#d5d5d5",
 //   info: "#000",
@@ -24,6 +25,9 @@ const theme = createTheme({
         },
         mycolor:{
             main:Colors.mycolor
+        },
+        myblack:{
+            main:Colors.myblack
         },
        
     },

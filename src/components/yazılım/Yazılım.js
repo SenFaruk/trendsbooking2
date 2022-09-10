@@ -11,7 +11,7 @@ const Yazılım = () => {
         margin: "50px 150px 50px 185px",
       }}
     >
-        <Stack direction="row" spacing={1}>
+        <Stack direction="row" spacing={2}>
             <Stack >
                  <img src={Arrow} alt=""/>
             </Stack>
@@ -24,6 +24,7 @@ const Yazılım = () => {
           fontSize: "36px",
           lineHeight: "43px",
           color: "#07232C",
+         
         }}
       >
         Kuaför Salonunuz İçin Eksiksiz Bir Yazılım
