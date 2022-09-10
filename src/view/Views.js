@@ -11,6 +11,8 @@ import Mutlu from "../components/mutlu/Mutlu";
 import Cardcards from "../components/cards/Cardcards";
 import Yazılım from "../components/yazılım/Yazılım";
 import Tektık from "../components/tektık/Tektık";
+import Mobiluygulama from "../components/mobiluygulama/Mobiluygulama";
+import Sıkcasorulansorular from "../components/sıkcasorulansorular/Sıkcasorulansorular";
 
 const Views = () => {
   return (
@@ -24,6 +26,8 @@ const Views = () => {
       <Cardcards/>
       <Yazılım/>
       <Tektık/>
+      <Mobiluygulama/>
+      <Sıkcasorulansorular/>
     </ThemeProvider>
   );
 };
