@@ -11,27 +11,26 @@ const Yazılım = () => {
         margin: "50px 150px 50px 185px",
       }}
     >
-        <Stack direction="row" spacing={2}>
-            <Stack >
-                 <img src={Arrow} alt=""/>
-            </Stack>
-           
-        <Typography
-        sx={{
-          fontFamily: "Roboto",
-          fontStyle: "normal",
-          fontWeight: "500",
-          fontSize: "36px",
-          lineHeight: "43px",
-          color: "#07232C",
-         
-        }}
-      >
-        Kuaför Salonunuz İçin Eksiksiz Bir Yazılım
-      </Typography>
-            
+      <Stack direction="row" spacing={2}>
+        <Stack>
+          <img src={Arrow} alt="" />
         </Stack>
-     
+
+        <Typography
+          sx={{
+            fontFamily: "Roboto",
+            fontStyle: "normal",
+            fontWeight: "500",
+            fontSize: "36px",
+            lineHeight: "43px",
+            color: "#07232C",
+          }}
+        >
+          <pre>Kuaför Salonunuz İçin</pre>
+
+          <pre>Eksiksiz Bir Yazılım</pre>
+        </Typography>
+      </Stack>
 
       <Typography
         sx={{

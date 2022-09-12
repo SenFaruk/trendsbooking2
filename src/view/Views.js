@@ -13,6 +13,7 @@ import Yazılım from "../components/yazılım/Yazılım";
 import Tektık from "../components/tektık/Tektık";
 import Mobiluygulama from "../components/mobiluygulama/Mobiluygulama";
 import Sıkcasorulansorular from "../components/sıkcasorulansorular/Sıkcasorulansorular";
+import Footer from "../components/footer/Footer";
 
 const Views = () => {
   return (
@@ -28,6 +29,7 @@ const Views = () => {
       <Tektık/>
       <Mobiluygulama/>
       <Sıkcasorulansorular/>
+      <Footer/>
     </ThemeProvider>
   );
 };
