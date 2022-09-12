@@ -14,6 +14,7 @@ import Tektık from "../components/tektık/Tektık";
 import Mobiluygulama from "../components/mobiluygulama/Mobiluygulama";
 import Sıkcasorulansorular from "../components/sıkcasorulansorular/Sıkcasorulansorular";
 import Footer from "../components/footer/Footer";
+import Ortalama from "../components/ortalama/Ortalama";
 
 const Views = () => {
   return (
@@ -23,6 +24,7 @@ const Views = () => {
       <NavItems/>
       <Highlights/>
       <CardsSwiper1/>
+      <Ortalama/>
       <Mutlu/>
       <Cardcards/>
       <Yazılım/>
