@@ -10,7 +10,8 @@ sx={{
     background:"#FFFFFF",
     boxShadow:"0px 0px 40px rgba(7, 35, 44, 0.07)",
     borderRadius:"30px",
-    marginLeft:"200px",
+    margin:"Auto",
+    marginBottom:"50px",
 }}>
 <Stack direction="row" spacing={0.5} marginLeft="50px">
     <Typography sx={{

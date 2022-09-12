@@ -315,7 +315,8 @@ const CardsSwiper1 = () => {
       </Swiper>
     </SwipperContainer>
 
-    <Button sx={{
+    <Button variant="contained"  textColor="primary" size="large"
+               sx={{
       width:"168px",
       height:"44px",
       left:"670px",     
@@ -323,12 +324,16 @@ const CardsSwiper1 = () => {
       borderRadius:"6px",
       marginBottom:"50px",
       textTransform: "capitalize",
+      
 
     }} 
-    endIcon={<ArrowRightAltIcon/>}>
-      Daha Fazla
+    endIcon={<ArrowRightAltIcon color="primary"/>}>
+      <Typography variant="body1" color="primary"> Daha Fazla</Typography>
+     
       
     </Button>
+
+
     </>
   );
 };

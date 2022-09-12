@@ -7,14 +7,12 @@ export const HeaderContainer = styled("div")(({ theme }) => ({
   backgroundPosition: "center",
   backgroundSize: "cover",
   position: "relative",
-width: "1424px",
+width: "87%",
 height: "557px",
-left: "50px",
-right:"50px",
-
-
-
+// left: "50px",
+// right:"50px",
 borderRadius: "30px",
+margin:"auto",
 
 }));
 

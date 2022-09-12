@@ -7,13 +7,16 @@ import {
   Autocomplete,
   TextField,
   Button,
+  Box,
+  
 } from "@mui/material";
 import { Hizmetler } from "../../data/Hizmetler";
 import { Cities } from "../../data/Cities";
 import ExpandMoreSharpIcon from "@mui/icons-material/ExpandMoreSharp";
 
 const HeroBg = () => {
-  return (
+  return ( 
+    
     <HeaderContainer>
       <Typography
         sx={{
@@ -48,6 +51,7 @@ const HeroBg = () => {
           lineHeight: "26px",
           textAlign: "center",
           color: "#FFFFFF",
+          display: {xs:"none", md:"block"}
         }}
       >
         Size en uygun salonlardan online randevunuzu kolayca alın.
@@ -104,6 +108,7 @@ const HeroBg = () => {
         <ExpandMoreSharpIcon />
       </Button>
     </HeaderContainer>
+   
   );
 };
 
