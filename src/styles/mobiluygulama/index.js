@@ -14,5 +14,6 @@ left: "50px",
 right:"50px",
 
 borderRadius: "30px",
+margin:"auto",
 
 }));
