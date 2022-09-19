@@ -60,6 +60,12 @@ const Navbar = () => {
                 Booking
               </Typography>
             </Stack>
+
+
+
+
+
+            
           </Stack>
 
           <Stack direction="row" spacing={4} sx={{

@@ -3,7 +3,7 @@ import { ThemeProvider } from "@mui/system";
 import Navbar from "../components/navbar/Navbar";
 import theme from "../styles/theme";
 
-import HeroBg from "../components/herobg/HeroBg";
+
 import NavItems from "../components/navıtems/NavItems";
 import Highlights from "../components/highlights/Highlights";
 import CardsSwiper1 from "../components/cardsswiper/CardsSwiper1";
@@ -15,13 +15,15 @@ import Mobiluygulama from "../components/mobiluygulama/Mobiluygulama";
 import Sıkcasorulansorular from "../components/sıkcasorulansorular/Sıkcasorulansorular";
 import Footer from "../components/footer/Footer";
 import Ortalama from "../components/ortalama/Ortalama";
+import Hero from "../components/herobg/Hero";
 
 const Views = () => {
   return (
     <ThemeProvider theme={theme}>
       <Navbar />
-      <HeroBg />
-      <NavItems/>
+      <Hero/>
+      {/* <HeroBg /> */}
+      {/* <NavItems/>
       <Highlights/>
       <CardsSwiper1/>
       <Ortalama/>
@@ -31,7 +33,7 @@ const Views = () => {
       <Tektık/>
       <Mobiluygulama/>
       <Sıkcasorulansorular/>
-      <Footer/>
+      <Footer/> */}
     </ThemeProvider>
   );
 };
