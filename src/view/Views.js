@@ -22,7 +22,7 @@ const Views = () => {
     <ThemeProvider theme={theme}>
       <Navbar />
       <Hero/>
-      {/* <HeroBg /> */}
+     
       {/* <NavItems/>
       <Highlights/>
       <CardsSwiper1/>

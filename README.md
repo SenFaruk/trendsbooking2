@@ -1,70 +1,233 @@
-# Getting Started with Create React App
+# Hero.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+````
+import React, { useState } from "react";
+import {
+  Box,
+  Stack,
+  styled,
+  Typography,
+  Button,
+  InputBase,
+  Divider,
+  Menu,
+} from "@mui/material";
+import herobg from "../../assets/herobg.png";
+import SearchIcon from "@mui/icons-material/Search";
+import PlaceIcon from "@mui/icons-material/Place";
+import Rectangle62 from "../../assets/Rectangle 62.svg";
+import MenuIcon from "@mui/icons-material/Menu";
 
-In the project directory, you can run:
+const Hero = () => {
+  const WrapperBox = styled(Box)(() => ({
+    border: "4px solid blue",
+    background: `url(${herobg})`,
+    backgroundRepeat: "no-repeat",
+    backgroundRepeat: "no-repeat",
+    borderRadius: "30px",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    height: "557px",
+    width: "1266px",
+    margin: "auto",
+    display: "flex",
+    flexDirection:"column",
+    justifyContent: "center",
 
-### `npm start`
+    alignContent:"center"
+  }));
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  const [open, setopen] = useState(false);
+  return (
+    <>
+      {/* ana box */}
+      <WrapperBox
+        sx={{
+          width: {
+            xs: "80%",
+            sm: "80%",
+            md: "80%",
+            lg: "90%",
+            xl: "90%",
+          },
+          display: {
+            xs: "none",
+            sm: "block",
+            md: "block",
+          },
+        }}
+      >
+        {/* resim üzeri yazıların tamamı için */}
+        {/* <Stack border="5px solid blue" spacing={10} mt={25}> */}
+          <Stack direction="column" spacing={2} border="3px solid red"
+             >
+            <Typography
+              sx={{
+                fontWeight: "800",
+                color: "white",
+                fontSize: "70px",
+                fontSize: {
+                  xs: "50px",
+                  md: "80px",
+                },
+                lineHeight: "110%",
+              }}
+            >
+              Bi güzellik yapın!
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Roboto",
+                fontStyle: "normal",
+                fontWeight: "400",
+                fontSize: "22px",
+                fontSize: {
+                  xs: "18px",
+                  md: "20px",
+                },
+                lineHeight: "26px",
+                color: "#FFFFFF",
+              }}
+            >
+              Size en uygun salonlardan online randevunuzu kolayca alın.
+            </Typography>
+          </Stack>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+          <Box
+            width="848px"
+            height="64px"
+            display="flex"
+            alignItems="center"
+            backgroundColor="#FFFFFF"
+            boxShadow="0px 0px 20px rgba(0, 0, 0, 0.08)"
+            borderRadius="6px"
+            border="4px solid black"
+            sx={{
+              width: {
+                xs: "95%",
+                sm: "95%",
+                md: "100%",
+                lg: "100%",
+                xl: "100%",
+              },
+            }}
+          >
+            <Stack
+              direction="row"
+              spacing={{ xs: 5, sm: 10, md: 15, lg: 19, xl: 19 }}
+            >
+              <Stack direction="row" spacing={1}>
+                <SearchIcon sx={{ paddingLeft: "10px" }} />
+                <InputBase
+                  placeholder="aradığınız hizmet...."
+                  sx={{ color: "#9A9A9A", paddingLeft: "10px" }}
+                />
+              </Stack>
 
-### `npm test`
+              <Stack direction="row" spacing={1}>
+                <Divider orientation="vertical" flexItem />
+                <PlaceIcon sx={{ paddingLeft: "10px" }} />
+                <InputBase placeholder="Ankara...." sx={{ color: "#9A9A9A" }} />
+              </Stack>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+              <Stack>
+                <Button color="mycolor" variant="contained">
+                  Ara
+                </Button>
+              </Stack>
+            </Stack>
+          </Box>
+        {/* </Stack> */}
+      </WrapperBox>
 
-### `npm run build`
+      <Box
+        sx={{
+          color: "#F65936",
+          border: "5px solid #F75936",
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+          width: "580px",
+          height: "500px",
+          background: "#F2F8FF",
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+          display: {
+            xs: "block",
+            sm: "none",
+            md: "none",
+          },
+        }}
+      >
+        <Stack
+          direction="row"
+          justifyContent="space-between"
+          alignItems="center"
+          spacing={2}
+          m={2}
+        >
+          <Stack>
+            <Stack
+              spacing={0}
+              sx={{
+                width: "16.73px",
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+                marginLeft: "24px",
+                padding: "0px",
+              }}
+            >
+              <img src={Rectangle62} alt="" />
+            </Stack>
 
-### `npm run eject`
+            <Typography
+              color="#07232C"
+              sx={{
+                fontFamily: "Roboto",
+                fontSize: "36px",
+                fontWeight: "500",
+                lineHeight: "34.12px",
+                letterSpacing: "0px",
+                textAlign: "left",
+              }}
+            >
+              <b style={{ color: "#F75936" }}>T</b>
+              <span>B</span>
+            </Typography>
+          </Stack>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+          <MenuIcon
+            sx={{
+              color: "#F65936",
+              // border:"3px solid #F75936",
+              // display: {
+              //   xs: "block",
+              //   sm: "block",
+              //   md: "none",
+              // },
+            }}
+            onClick={() => setopen(!open)}
+          />
+          <Menu
+            id="demo-positioned-menu"
+            aria-labelledby="demo-positioned-button"
+            open={open}
+            onClose={() => setopen(!open)}
+            anchorOrigin={{
+              vertical: "top",
+              horizontal: "right",
+            }}
+            transformOrigin={{
+              vertical: "top",
+              horizontal: "left",
+            }}
+          >
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+          </Menu>
+        </Stack>
+      </Box>
+    </>
+  );
+};
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+export default Hero;
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+````

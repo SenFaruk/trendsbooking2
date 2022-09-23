@@ -12,6 +12,12 @@ const Navbar = () => {
     <Stack
       sx={{
         margin: "10px 50px 10px 50px",
+        display: {
+          
+          xs: "none",
+          sm: "block",
+          md: "block",
+        },
       }}
     >
       <AppBar position="relative" sx={{ boxShadow: "none" }}>
@@ -120,7 +126,7 @@ const Navbar = () => {
           <MenuIcon
           sx={{
             color: "#F65936",
-            border:"3px solid #F75936",
+            // border:"3px solid #F75936",
             display: {
               xs: "block",
               sm: "block",
