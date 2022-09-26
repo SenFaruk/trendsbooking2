@@ -13,7 +13,17 @@ export default function NavItems() {
   };
 
   return (
-    <Stack sx={{ margin: "20px 150px 20px 150px" }}>
+    <Stack sx={{ margin: "20px 150px 20px 150px" ,
+    display: {
+      xs: "none",
+      sm: "none",
+      md: "block",
+      lg: "block",
+      xl: "block",
+    },
+    
+    
+    }}>
       <Tabs
         value={value}
         onChange={handleChange}

@@ -1,12 +1,21 @@
-import { Stack, Typography } from "@mui/material";
+import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
 
 const Mutlu = () => {
   return (
-    <Stack sx={{marginBottom:"30px"}}>
+    <Box
+    sx={{
+      display:"flex",
+      flexDirection:"column",
+      justifyContent: "center",
+      alignItems: "center",
+    }}>
+
+   
+ 
       <Typography
         sx={{
-          marginLeft: "545px",
+          
 
           fontFamily: "Roboto",
           fontStyle: "normal",
@@ -19,10 +28,18 @@ const Mutlu = () => {
       >
         Müşterileriniz Daha Mutlu
       </Typography>
+
+
       <Typography
         sx={{
-            margin:"25px 250px 20px 200px",
-          
+            margin:{
+              xs: "25px 50px 20px 50px",
+              sm: "25px 100px 20px 100px",
+              md: "25px 200px 20px 200px",
+              lg: "25px 200px 20px 200px",
+              xl: "25px 200px 20px 200px",
+
+            },          
 
           fontFamily: "Roboto",
           fontStyle: "normal",
@@ -37,7 +54,9 @@ const Mutlu = () => {
       >
         Kuaför salonundan hizmet alacak kişi için en önemli unsurlardan biri, almak istediği randevuyu istediği saatte ve istediği personelden alabilmekten geçer.
       </Typography>
-    </Stack>
+
+
+    </Box>
   );
 };
 

@@ -15,7 +15,7 @@ import Mobiluygulama from "../components/mobiluygulama/Mobiluygulama";
 import Sıkcasorulansorular from "../components/sıkcasorulansorular/Sıkcasorulansorular";
 import Footer from "../components/footer/Footer";
 import Ortalama from "../components/ortalama/Ortalama";
-import Hero from "../components/herobg/Hero";
+import Hero from "../components/hero/Hero";
 
 const Views = () => {
   return (
@@ -23,7 +23,7 @@ const Views = () => {
       <Navbar />
       <Hero/>
      
-      {/* <NavItems/>
+      <NavItems/>
       <Highlights/>
       <CardsSwiper1/>
       <Ortalama/>
@@ -33,7 +33,7 @@ const Views = () => {
       <Tektık/>
       <Mobiluygulama/>
       <Sıkcasorulansorular/>
-      <Footer/> */}
+      <Footer/> 
     </ThemeProvider>
   );
 };

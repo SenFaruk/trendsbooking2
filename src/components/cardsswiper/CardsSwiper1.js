@@ -279,7 +279,12 @@ const CardsSwiper1 = () => {
         <SwiperSlide>
           <Card sx={{ maxWidth: 245 }}>
             <CardActionArea>
+            
+              
+
               <CardMedia component="img" height="245" image={Rectangle38} />
+              
+             
               <CardContent>
                 <Typography
                   sx={{
@@ -315,11 +320,18 @@ const CardsSwiper1 = () => {
       </Swiper>
     </SwipperContainer>
 
+    <Stack
+  direction="row"
+  justifyContent="center"
+  alignItems="center"
+  spacing={2}
+>
+
     <Button variant="contained"  textColor="primary" size="large"
                sx={{
       width:"168px",
       height:"44px",
-      left:"670px",     
+      // left:"670px",     
       background:"#F75936",
       borderRadius:"6px",
       marginBottom:"50px",
@@ -332,6 +344,10 @@ const CardsSwiper1 = () => {
      
       
     </Button>
+
+    </Stack>
+
+    
 
 
     </>

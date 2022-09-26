@@ -5,7 +5,21 @@ const Ortalama = () => {
   return (
 <Box
 sx={{
-    width:"1075px",
+  display:{
+    xs: "none",
+    sm: "none",
+    md: "none",
+    lg: "block",
+    xl: "block",
+
+  },
+  width: {
+    xs: "590px",
+    sm: "600px",
+    md: "900px",
+    lg: "1075px",
+    xl: "1075px",
+  },
     height:"191px",
     background:"#FFFFFF",
     boxShadow:"0px 0px 40px rgba(7, 35, 44, 0.07)",
@@ -13,6 +27,15 @@ sx={{
     margin:"Auto",
     marginBottom:"50px",
 }}>
+  <Stack
+  direction="row"
+  justifyContent="center"
+  alignItems="center"
+  spacing={2}
+>
+  
+
+  </Stack>
 <Stack direction="row" spacing={0.5} marginLeft="50px">
     <Typography sx={{
         fontFamily: 'Roboto',
@@ -45,7 +68,10 @@ sx={{
   alignItems="center"
   spacing={12}
 >
-    <CardContent>
+
+  <Stack>
+
+  <CardContent>
     <Typography sx={{
      fontFamily: 'Roboto',
      fontStyle:"normal",
@@ -72,6 +98,16 @@ sx={{
     </Typography>
     
   </CardContent>
+
+
+  </Stack>
+
+
+
+
+
+
+
     <CardContent>
     <Typography sx={{
      fontFamily: 'Roboto',
@@ -97,6 +133,10 @@ sx={{
      }} >
      450 TL
     </Typography>
+
+
+
+    
     
   </CardContent>
     <CardContent>

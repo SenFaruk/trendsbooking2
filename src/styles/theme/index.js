@@ -7,6 +7,7 @@ export const Colors = {
   secondary: "#ED6A5B",
   mycolor:"#F65936",
   myblack:"#07232C",
+  myfab:"#07232C"
   
 //  success: "#d5d5d5",
 //   info: "#000",
