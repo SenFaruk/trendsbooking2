@@ -20,7 +20,7 @@ import Hero from "../components/hero/Hero";
 const Views = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Navbar />
+      {/* <Navbar />
       <Hero/>
      
       <NavItems/>
@@ -29,11 +29,11 @@ const Views = () => {
       <Ortalama/>
       <Mutlu/>
       <Cardcards/>
-      <Yazılım/>
+      <Yazılım/> */}
       <Tektık/>
-      <Mobiluygulama/>
-      <Sıkcasorulansorular/>
-      <Footer/> 
+      {/* <Mobiluygulama/> */}
+      {/* <Sıkcasorulansorular/> */}
+      {/* <Footer/>  */}
     </ThemeProvider>
   );
 };

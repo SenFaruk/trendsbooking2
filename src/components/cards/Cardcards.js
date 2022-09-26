@@ -5,22 +5,24 @@ import card2 from "../../assets/card2.svg";
 
 const Cardcards = () => {
   return (
-    <Stack
-      direction="row"
-      justifyContent="center"
-      alignItems="center"
-      spacing={2}
+    // container Box başlangıç
+    <Box
+      sx={{
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "space-evenly",
+        padding: "50px",
+      }}
     >
+      {/* birinci box */}
+
       <Box
         sx={{
-          position: "absolute",
           width: "394px",
-          height: "849px",
-
+          height: "860px",
           background: `url(${card1})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
-          position: "relative",
           borderRadius: "20px",
         }}
       >
@@ -33,7 +35,6 @@ const Cardcards = () => {
             lineHeight: "33px",
             textAlign: "center",
             paddingTop: "50px",
-
             color: "#07232C",
           }}
         >
@@ -44,13 +45,17 @@ const Cardcards = () => {
 
       {/* birinci box sonu */}
 
-      <Stack direction="column" spacing={2}>
+      {/* ikinci ve üçünçü boxlar için stack başlangıc */}
+
+      <Stack direction="column" spacing={1}>
+        {/* ikinci box başlangıc */}
         <Box
           sx={{
             width: "393px",
             height: "416px",
             background: "#F2F8FF",
             borderRadius: "20px",
+            marginBottom: "20px",
           }}
         >
           <Typography
@@ -60,9 +65,7 @@ const Cardcards = () => {
               fontWeight: "500",
               fontSize: "28px",
               lineHeight: "33px",
-
               padding: "50px 25px 0px 25px",
-
               color: "#07232C",
             }}
           >
@@ -76,7 +79,6 @@ const Cardcards = () => {
               fontSize: "20px",
               lineHeight: "28px",
               padding: "10px 25px 0px 25px",
-
               color: "#6E6E73",
             }}
           >
@@ -84,12 +86,17 @@ const Cardcards = () => {
             find a free date and make an appointment conveniently.{" "}
           </Typography>
         </Box>
+
+        {/* ikinci box sonu */}
+        {/* üçüncü box başlangıc */}
+
         <Box
           sx={{
             width: "393px",
             height: "416px",
             background: "#F65936",
             borderRadius: "20px",
+            marginBottom: "20px",
           }}
         >
           <Typography
@@ -123,30 +130,35 @@ const Cardcards = () => {
             find a free date and make an appointment conveniently.{" "}
           </Typography>
         </Box>
+        {/* üçüncü box sonu */}
       </Stack>
+      {/* ikinci ve üçünçü boxlar için stack sonu */}
 
-      {/* birinci stack  sonu*/}
+      {/* 4-5inci boxlar(ikinci stack  başlangıcı */}
 
-      <Stack direction="column" spacing={2}>
+      <Stack direction="column" spacing={1}>
+        {/* 4.box başlangıç */}
         <Box
           sx={{
             width: "393px",
             height: "416px",
-
             background: `url(${card2})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
-            position: "relative",
             borderRadius: "20px",
             borderRadius: "20px",
+            marginBottom: "20px",
           }}
         ></Box>
+        {/* 4.box sonu */}
+        {/* 5.box başlangıç */}
         <Box
           sx={{
             width: "393px",
             height: "416px",
             background: "#F2F8FF",
             borderRadius: "20px",
+            marginBottom: "20px",
           }}
         >
           <Typography
@@ -180,10 +192,10 @@ const Cardcards = () => {
             engelleyin, randevularınızı kolayca yönetin
           </Typography>
         </Box>
+        {/* 5.box sonu */}
       </Stack>
-
-      {/* ikinci stack sonu */}
-    </Stack>
+    </Box>
+    // container Box sonu
   );
 };
 

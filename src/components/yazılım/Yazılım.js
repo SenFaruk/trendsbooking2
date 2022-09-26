@@ -1,17 +1,24 @@
 import React from "react";
-import { Stack, Typography } from "@mui/material";
+import { Box, Stack, Typography } from "@mui/material";
 import SouthEastSharpIcon from "@mui/icons-material/SouthEastSharp";
 import Arrow from "../../assets/Arrow.svg";
 const Yazılım = () => {
   return (
-    <Stack
-      direction="row"
-      spacing={10}
+    // container Box başlangıc
+    <Box
       sx={{
-        margin: "50px 150px 50px 185px",
+        display: {
+          xs: "column",
+          sm: "column",
+          md: "column",
+          lg: "flex",
+          xl: "flex",
+        },
+        justifyContent: "center",
+        p: "50px 100px 50px 100px",
       }}
     >
-      <Stack direction="row" spacing={2}>
+      <Stack direction="row" spacing={2} padding=" 0px 70px 50px 0px">
         <Stack>
           <img src={Arrow} alt="" />
         </Stack>
@@ -46,7 +53,8 @@ const Yazılım = () => {
         tabletinizden kullanarak Randevularınızı, Ürün & Paket Satışlarınızı ve
         çok daha fazlasını kolayca yönetebilirsiniz!
       </Typography>
-    </Stack>
+    </Box>
+    // container Box sonu
   );
 };
 
