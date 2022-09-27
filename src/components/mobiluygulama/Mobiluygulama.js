@@ -2,23 +2,40 @@ import React from "react";
 import { Box, Stack, Typography,Button } from "@mui/material";
 import googleplay from "../../assets/googleplay.svg";
 import appstore from "../../assets/appstore.svg";
-import { MobilContainer } from "../../styles/mobiluygulama";
+import mobilback from "../../assets/mobilback.jpg";
 
 const Mobiluygulama = () => {
   return (
-    <MobilContainer>
-      <Stack
-  direction="column"
-  justifyContent="center"
-  alignItems="center"
-  spacing={4}
-  sx={{
-    marginTop:"50px",
-    paddingTop:"50px",
-  }}
->
+    // container Box başlangıc
+    <Box sx={{
+      background: `url(${mobilback})`,
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+      width: {
+        xs: "500px",
+        sm: "600px",
+        md: "900px",
+        lg: "1200px",
+        xl: "1350px",
+      },
+      height: {
+        xs: "450px",
+        sm: "450px",
+        md: "450px",
+        lg: "400px",
+        xl: "400px",
+      },
+      display:"column",
+      justifyContent: "center",
+      alignItems: "center",
+      alignContent: "center",
+      margin: "auto",
+      mt:"50px",
+      borderRadius:"30px",
+   
+    }}>
 
-     
+    
       <Typography
       sx={{
         fontFamily: 'Roboto',
@@ -30,24 +47,48 @@ const Mobiluygulama = () => {
         letterSpacing:"-0.1px",
 
         color: "#FFFFFF",
+        paddingTop: "60px",
 
 
       }} 
       >
         Mobil Uygulama IOS, Android
         </Typography>
+
+
       <Typography
       sx={{
         fontFamily: 'Roboto',
         fontStyle:"normal",
-        fontWeight:"600",
-        fontSize:"58px",
+        fontWeight:{
+          xs: "600",
+          sm: "600",
+          md: "600",
+          lg: "600",
+          xl: "600",
+        },
+        fontSize:{
+          xs: "40px",
+          sm: "40px",
+          md: "50px",
+          lg: "50px",
+          xl: "58px",
+        },
         lineHeight:"68px",
         textAlign:"center",
         letterSpacing:"-0.5px",
 
         color: "#FFFFFF",
-        padding:"10px 200px 10px 200px"
+        padding:{
+          xs: "30px 10px 10px 30px",
+          sm: "30px 30px 30px 30px",
+          md: "30px 80px 40px 80px",
+          lg: "20px 200px 30px 200px",
+          xl: "20px 200px 30px 200px",
+        },
+        
+        
+        
 
 
       }} 
@@ -56,7 +97,12 @@ const Mobiluygulama = () => {
         </Typography>
 
 
-      <Stack direction="row" spacing={2}>
+        <Stack
+  direction="row"
+  justifyContent="center"
+  alignItems="center"
+  spacing={2}
+>
         <Button variant="contained" color="primary"
         sx={{
           borderRadius: "6px",
@@ -67,6 +113,8 @@ const Mobiluygulama = () => {
         }}>
           <img width="100px" src={googleplay} alt="" />
         </Button>
+
+
         <Button variant="contained" color="primary"
         sx={{
           borderRadius: "6px",
@@ -78,8 +126,9 @@ const Mobiluygulama = () => {
           <img width="100px" src={appstore} alt="" />
         </Button>
       </Stack>
-      </Stack>
-    </MobilContainer>
+    
+    </Box>
+      // container Box başlangıc
   );
 };
 

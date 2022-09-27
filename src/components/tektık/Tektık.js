@@ -16,6 +16,7 @@ const Tektık = () => {
         xl: "flex",
       },
       justifyContent: "space-evenly",
+     
   
     }}
     
@@ -173,7 +174,7 @@ const Tektık = () => {
          {/* box container -2- başlangıc */}
          <Box sx={{
       display: {
-        xs: "flex",
+        xs: "column",
         sm: "flex",
         md: "none",
         lg: "none",
@@ -192,6 +193,7 @@ const Tektık = () => {
         height: "422px",
         background: "#F2F8FF",
         borderRadius: "30px",
+        margin:"10px",
       
        
       }}
@@ -274,6 +276,7 @@ const Tektık = () => {
         height: "422px",
         background: "#F5F5F5",
         borderRadius: "30px",
+        margin:"10px",
      
        
       }}
