@@ -30,7 +30,8 @@ const Tektık = () => {
         width: "623px",
         height: "891px",
         background: "#F2F8FF",
-        borderRadius: "30px",
+        borderRadius: "30px",       
+        marginRight:"20px",
     
        
       }}

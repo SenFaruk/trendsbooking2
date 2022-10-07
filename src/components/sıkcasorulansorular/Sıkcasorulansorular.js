@@ -20,7 +20,7 @@ const Sıkcasorulansorular = () => {
         alignItems: "center",
         background: "#F9F9F9",
         width: "1366px",
-        height: "600px",     
+        height: "500px",     
         margin: "auto",
       }}
     >
@@ -62,11 +62,11 @@ const Sıkcasorulansorular = () => {
       {/* soruların tamamı başlangıç */}
       <Box
         sx={{
-        mt: "100px",
+        mt: "90px",
         }}
       >
         <List
-          component="nav"
+        
           sx={{
             width: "100%",
             maxWidth: 560,

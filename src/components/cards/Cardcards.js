@@ -9,6 +9,7 @@ const Cardcards = () => {
     <Box
       sx={{
         display: "flex",
+        flexDirection:"row",
         flexWrap: "wrap",
         justifyContent: "space-evenly",
         padding: "50px",
