@@ -20,7 +20,7 @@ const Navbar = () => {
         },
       }}
     >
-      <AppBar position="relative" sx={{ boxShadow: "none" }}>
+      <AppBar position="relative" sx={{ boxShadow: "none"}}>
         <Toolbar>
           <Stack direction="row" sx={{ 
             flexGrow: 1,
@@ -35,6 +35,7 @@ const Navbar = () => {
                 letterSpacing: "0px",
                 textAlign: "left",
                 marginTop: "8px",
+                paddingLeft:"95px"
               }}
             >
               Trends
@@ -110,6 +111,7 @@ const Navbar = () => {
               sx={{
                 border: "1px solid #F65936 ",
                 padding: "10px",
+                
               }}
               variant="contained"
               textColor="primary"

@@ -15,7 +15,8 @@ const Tektık = () => {
         lg: "flex",
         xl: "flex",
       },
-      justifyContent: "space-evenly",
+      justifyContent: "center",
+      margin:"auto",
      
   
     }}

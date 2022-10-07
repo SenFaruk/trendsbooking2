@@ -31,6 +31,7 @@ const Mobiluygulama = () => {
       alignContent: "center",
       margin: "auto",
       mt:"50px",
+      marginBottom: "50px",
       borderRadius:"30px",
    
     }}>

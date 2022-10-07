@@ -2,63 +2,139 @@ import React from "react";
 
 import { Box, ButtonGroup, Button, Stack, Typography } from "@mui/material";
 
-import { buttons } from "./Buttons";
+import ArrowCircleDownIcon from "@mui/icons-material/ArrowCircleDown";
+
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
+import Divider from "@mui/material/Divider";
 
 const Sıkcasorulansorular = () => {
   return (
-    <Box sx={{
-        margin:"100px"
-    }}>
-    <Stack direction="column" spacing={10}>
-    <Stack direction="column" spacing={2}>
-      <Typography
-        sx={{
-          fontFamily: "Roboto",
-          fontStyle: "normal",
-          fontWeight: "600",
-          fontSize: "60px",
-          lineHeight: "70px",
-          textAlign: "center",
-          color: "#07232C",
-        }}
-      >
-        Sıkca Sorulan Sorular
-      </Typography>
-      <Typography
-        sx={{
-          fontFamily: "Roboto",
-          fontStyle: "normal",
-          fontWeight: "400",
-          fontSize: "20px",
-          lineHeight: "30px",
-          textAlign: "center",
-          color: "#9A9A9A",
-        }}
-      >
-        Sizlere en iyi hizmeti sunabılmek için çok çalışıyoruz. Sizler için en
-        çok sorulan soruları derledik{" "}
-      </Typography>
-      </Stack>
-      <Box
-        sx={{
-          marginLeft: "56px",
-        }}
-      >
-        <ButtonGroup
-          orientation="vertical"
-          aria-label="vertical contained button group"
-          variant="text"
-          color="myblack"
+    // Box container başla
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        pt: "50px",
+        alignItems: "center",
+        background: "#F9F9F9",
+        width: "1366px",
+        height: "600px",     
+        margin: "auto",
+      }}
+    >
+      {/* sıkça sorulan sorular ve metin başlangıç */}
+      <Stack
+        direction="column"
+        spacing={2}
+        >
+        <Typography
           sx={{
-            margin: "30px",
-            padding: "0px",
+            fontFamily: "Roboto",
+            fontStyle: "normal",
+            fontWeight: "600",
+            fontSize: "60px",
+            lineHeight: "70px",
+            textAlign: "center",
+            color: "#07232C",
           }}
         >
-          {buttons}
-        </ButtonGroup>
-      </Box>
+          Sıkca Sorulan Sorular
+        </Typography>
+        <Typography
+          sx={{
+            fontFamily: "Roboto",
+            fontStyle: "normal",
+            fontWeight: "400",
+            fontSize: "20px",
+            lineHeight: "30px",
+            textAlign: "center",
+            color: "#9A9A9A",
+          }}
+        >
+          Sizlere en iyi hizmeti sunabılmek için çok çalışıyoruz. Sizler için en
+          çok sorulan soruları derledik{" "}
+        </Typography>
       </Stack>
+      {/* sıkça sorulan sorular ve metin bitiş */}
+
+      {/* soruların tamamı başlangıç */}
+      <Box
+        sx={{
+        mt: "100px",
+        }}
+      >
+        <List
+          component="nav"
+          sx={{
+            width: "100%",
+            maxWidth: 560,
+          }}
+        >
+          <ListItem button>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-between",
+                width: "1000px",
+              }}
+            >
+              <ListItemText primary="Trend Booking ücretsiz mi ?" />
+              {<ArrowCircleDownIcon />}
+            </Box>
+          </ListItem>
+
+          <Divider />
+          <ListItem button>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-between",
+                width: "900px",
+              }}
+            >
+              <ListItemText primary="Kuaförden Nasıl Emin Olabilirim ?" />
+              {<ArrowCircleDownIcon />}
+            </Box>
+          </ListItem>
+
+          <Divider />
+          <ListItem button>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-between",
+                width: "900px",
+              }}
+            >
+              <ListItemText primary="Trend Booking Güvenli mi ?" />
+              {<ArrowCircleDownIcon />}
+            </Box>
+          </ListItem>
+          <ListItem button>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-between",
+                width: "900px",
+              }}
+            >
+              <ListItemText primary="Müşteri Hizmetleri Nasıl Çalışır ?" />
+              {<ArrowCircleDownIcon />}
+            </Box>
+          </ListItem>
+
+          <Divider />
+        </List>
+      </Box>
+      {/* soruların tamamı bitiş */}
     </Box>
+    // Box container bitir
   );
 };
 

@@ -24,6 +24,7 @@ const Cardcards = () => {
           backgroundPosition: "center",
           backgroundSize: "cover",
           borderRadius: "20px",
+          marginTop: "20px",
         }}
       >
         <Typography
@@ -56,6 +57,7 @@ const Cardcards = () => {
             background: "#F2F8FF",
             borderRadius: "20px",
             marginBottom: "20px",
+            marginTop: "20px",
           }}
         >
           <Typography
@@ -148,6 +150,7 @@ const Cardcards = () => {
             borderRadius: "20px",
             borderRadius: "20px",
             marginBottom: "20px",
+            marginTop: "20px",
           }}
         ></Box>
         {/* 4.box sonu */}

@@ -16,7 +16,7 @@ export default function NavItems() {
     <Stack sx={{ margin: "20px 150px 20px 150px" ,
     display: {
       xs: "none",
-      sm: "none",
+      sm: "block",
       md: "block",
       lg: "block",
       xl: "block",
@@ -87,15 +87,16 @@ export default function NavItems() {
             textTransform: "capitalize",
           }}
         />
-        >
+        
         <Tab
           value="Daha Fazla"
           label="Daha Fazla"
           sx={{
             textTransform: "capitalize",
+            paddingRight:"0px",
           }}
         />
-        <ArrowDropDownCircleOutlinedIcon sx={{ marginTop: "11px" }} />
+        <ArrowDropDownCircleOutlinedIcon sx={{ marginTop: "17px" }} />
       </Tabs>
     </Stack>
   );
