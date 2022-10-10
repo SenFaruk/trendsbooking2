@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <Stack
       sx={{
-        margin: "10px 50px 10px 50px",
+        margin: "10px 150px 10px 50px",
         display: {
           
           xs: "none",

@@ -41,9 +41,27 @@ const CardsSwiper1 = () => {
         keyboard={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         spaceBetween={20}
-        slidesPerView={4}
-        // onSlideChange={() => console.log('slide change')}
-        // onSwiper={(swiper) => console.log(swiper)}
+        // slidesPerView={4}
+
+        breakpoints={{
+          // when window width is >= 1200px
+          1200: {
+            width: 1200,
+            slidesPerView: 4,
+          },
+          // when window width is >= 900px
+          900: {
+            width: 900,
+            slidesPerView: 3,
+          },
+          // when window width is >= 600px
+          600: {
+            width: 600,
+            slidesPerView: 2,
+          },
+          
+        }}
+        
       >
         <SwiperSlide>
           <Card sx={{ maxWidth: 245 }}>

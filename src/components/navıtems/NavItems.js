@@ -2,18 +2,19 @@ import * as React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 
-import { Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import ArrowDropDownCircleOutlinedIcon from "@mui/icons-material/ArrowDropDownCircleOutlined";
 
 export default function NavItems() {
-  const [value, setValue] = React.useState("one");
+  const [value, setValue] = React.useState();
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+  console.log({value});
 
   return (
-    <Stack sx={{ margin: "20px 150px 20px 150px" ,
+    <Box sx={{ margin: "20px 150px 20px 150px" ,
     display: {
       xs: "none",
       sm: "block",
@@ -37,6 +38,13 @@ export default function NavItems() {
           label="Kuaför"
           sx={{
             textTransform: "capitalize",
+            display: {
+              xs: "block",
+              sm: "block",
+              md: "block",
+              lg: "block",
+              xl: "block",
+            },
           }}
         />
         <Tab
@@ -44,6 +52,13 @@ export default function NavItems() {
           label="Berber"
           sx={{
             textTransform: "capitalize",
+            display: {
+              xs: "none",
+              sm: "none",
+              md: "none",
+              lg: "block",
+              xl: "block",
+            },
           }}
         />
         <Tab
@@ -58,19 +73,28 @@ export default function NavItems() {
           label="Tırnak Salonu"
           sx={{
             textTransform: "capitalize",
+            display: {
+              xs: "none",
+              sm: "none",
+              md: "none",
+              lg: "block",
+              xl: "block",
+            },
           }}
-          sx={{
-            textTransform: "capitalize",
-          }}
-          sx={{
-            textTransform: "capitalize",
-          }}
+         
         />
         <Tab
           value="Cilt Bakımı"
           label="Cilt Bakımı"
           sx={{
             textTransform: "capitalize",
+            display: {
+              xs: "none",
+              sm: "none",
+              md: "none",
+              lg: "block",
+              xl: "block",
+            },
           }}
         />
         <Tab
@@ -78,6 +102,13 @@ export default function NavItems() {
           label="Masaj"
           sx={{
             textTransform: "capitalize",
+            display: {
+              xs: "none",
+              sm: "none",
+              md: "none",
+              lg: "block",
+              xl: "block",
+            },
           }}
         />
         <Tab
@@ -85,6 +116,13 @@ export default function NavItems() {
           label="Spa"
           sx={{
             textTransform: "capitalize",
+            display: {
+              xs: "none",
+              sm: "none",
+              md: "none",
+              lg: "block",
+              xl: "block",
+            },
           }}
         />
         
@@ -94,10 +132,17 @@ export default function NavItems() {
           sx={{
             textTransform: "capitalize",
             paddingRight:"0px",
+            display: {
+              xs: "block",
+              sm: "block",
+              md: "block",
+              lg: "block",
+              xl: "block",
+            },
           }}
         />
-        <ArrowDropDownCircleOutlinedIcon sx={{ marginTop: "17px" }} />
+        <ArrowDropDownCircleOutlinedIcon sx={{ marginTop: "8px" }} />
       </Tabs>
-    </Stack>
+    </Box>
   );
 }

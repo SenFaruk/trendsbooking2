@@ -145,12 +145,9 @@ const Hero = () => {
       <Box
         sx={{
           color: "#F65936",
-          border: "1px solid #F65936 ",
-
           width: "580px",
           height: "500px",
           background: "#F2F8FF",
-
           display: {
             xs: "block",
             sm: "none",
