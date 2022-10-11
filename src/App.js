@@ -1,3 +1,4 @@
+import Shop from "./view/Shop";
 import Views from "./view/Views";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   
   <div className="App">
     <Views/>
+    {/* <Shop/> */}
   </div>) 
 }
 

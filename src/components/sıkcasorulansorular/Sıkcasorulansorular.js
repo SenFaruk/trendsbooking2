@@ -18,8 +18,7 @@ const Sıkcasorulansorular = () => {
         flexDirection: "column",
         pt: "50px",
         alignItems: "center",
-        background: "#F9F9F9",
-        width: "1366px",
+        background: "#F9F9F9",        
         height: "500px",     
         margin: "auto",
       }}
@@ -63,6 +62,13 @@ const Sıkcasorulansorular = () => {
       <Box
         sx={{
         mt: "90px",
+        ml:"300px",
+        width: {
+          xs: "250px",
+          sm:"300px",
+          md: "800px",
+          lg: "1000px",
+        }
         }}
       >
         <List
@@ -75,14 +81,14 @@ const Sıkcasorulansorular = () => {
           <ListItem button>
             <Box
               sx={{
-                display: "flex",
-                flexDirection: "row",
+                display: "flex",               
                 justifyContent: "space-between",
-                width: "1000px",
+                width:"100%"
+           
               }}
             >
               <ListItemText primary="Trend Booking ücretsiz mi ?" />
-              {<ArrowCircleDownIcon />}
+              <ArrowCircleDownIcon />
             </Box>
           </ListItem>
 
@@ -93,7 +99,7 @@ const Sıkcasorulansorular = () => {
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "space-between",
-                width: "900px",
+                width:"100%",
               }}
             >
               <ListItemText primary="Kuaförden Nasıl Emin Olabilirim ?" />
@@ -108,7 +114,7 @@ const Sıkcasorulansorular = () => {
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "space-between",
-                width: "900px",
+                width:"100%",
               }}
             >
               <ListItemText primary="Trend Booking Güvenli mi ?" />
@@ -121,7 +127,7 @@ const Sıkcasorulansorular = () => {
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "space-between",
-                width: "900px",
+                width:"100%",
               }}
             >
               <ListItemText primary="Müşteri Hizmetleri Nasıl Çalışır ?" />

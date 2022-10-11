@@ -25,7 +25,7 @@ const Cardcards = () => {
           backgroundPosition: "center",
           backgroundSize: "cover",
           borderRadius: "20px",
-          marginTop: "20px",
+          margin: "20px 20px 20px 20px",
         }}
       >
         <Typography
@@ -49,7 +49,7 @@ const Cardcards = () => {
 
       {/* ikinci ve üçünçü boxlar için stack başlangıc */}
 
-      <Stack direction="column" spacing={1}>
+      <Stack direction="column" >
         {/* ikinci box başlangıc */}
         <Box
           sx={{
@@ -57,8 +57,7 @@ const Cardcards = () => {
             height: "416px",
             background: "#F2F8FF",
             borderRadius: "20px",
-            marginBottom: "20px",
-            marginTop: "20px",
+            margin: "20px 20px 20px 20px",
           }}
         >
           <Typography
@@ -99,7 +98,7 @@ const Cardcards = () => {
             height: "416px",
             background: "#F65936",
             borderRadius: "20px",
-            marginBottom: "20px",
+            margin: "20px 20px 20px 20px",
           }}
         >
           <Typography
@@ -139,7 +138,16 @@ const Cardcards = () => {
 
       {/* 4-5inci boxlar(ikinci stack  başlangıcı */}
 
-      <Stack direction="column" spacing={1}>
+      <Box  
+      sx={{
+        flexDirection: {
+          xs:"column",
+          md:"row",
+          xl: "column",
+          
+        },
+        display:"flex",
+      }}>
         {/* 4.box başlangıç */}
         <Box
           sx={{
@@ -150,8 +158,8 @@ const Cardcards = () => {
             backgroundSize: "cover",
             borderRadius: "20px",
             borderRadius: "20px",
-            marginBottom: "20px",
-            marginTop: "20px",
+           
+            margin: "20px 20px 20px 20px",
           }}
         ></Box>
         {/* 4.box sonu */}
@@ -162,7 +170,8 @@ const Cardcards = () => {
             height: "416px",
             background: "#F2F8FF",
             borderRadius: "20px",
-            marginBottom: "20px",
+            margin: "20px 20px 20px 20px",
+            
           }}
         >
           <Typography
@@ -197,7 +206,7 @@ const Cardcards = () => {
           </Typography>
         </Box>
         {/* 5.box sonu */}
-      </Stack>
+      </Box>
     </Box>
     // container Box sonu
   );
