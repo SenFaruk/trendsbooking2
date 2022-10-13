@@ -792,3 +792,29 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+=========================================
+<IconButton >
+              {<FavoriteIcon color="primary"/>}
+            </IconButton>
+            <Typography sx={{
+              fontFamily: 'Roboto',
+              fontStyle:"normal",
+              fontHeight:"500",
+              fontSize:"14px",
+              lineHeight:"16px",
+              color: "#FFFFFF",
+              
+            }}>beğendiklerim</Typography>
+
+            000000000000000000000000
+            sx={{
+            display: "flex",
+            flexDirection:"row",
+            justifyContent: "space-between",
+            alignItems: "baseline",
+            border:"2px solid red",
+           
+
+          }}>

@@ -1,27 +1,29 @@
 import React from "react";
-import { Box, Button, Divider, InputBase, Stack, Typography } from "@mui/material";
+import { Avatar, Badge, BottomNavigation, BottomNavigationAction, Box, Button, Divider, IconButton, InputBase, Stack, Typography } from "@mui/material";
 import ShopRectangle62 from "../../../assets/ShopRectangle 62.svg";
 import SearchIcon from "@mui/icons-material/Search";
 import PlaceIcon from "@mui/icons-material/Place";
 import DateRangeIcon from '@mui/icons-material/DateRange';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import LanguageSharpIcon from "@mui/icons-material/LanguageSharp";
 
 const ShopNavbarSatır1 = () => {
+  
   return (
     // container Box başlangıc
     <Box
       sx={{
         display: "flex",
         flexDirection: "row",
-        justifyContent: "space-between",
-        alignItems: "center",
+        justifyContent: "space-around",
+        alignItems: "baseline",
+        border: "1px solid #F65936 ",
+        pt:2,
       }}
     >
       {/* TrendsBooking */}
-      <Box sx={{
-        border: "1px solid #F65936 ",
-        mt:1
-      }}>
+      <Box >
       <Stack direction="row">
         <Typography
           sx={{
@@ -81,15 +83,15 @@ const ShopNavbarSatır1 = () => {
             backgroundColor:"#FFFFFF",
             boxShadow:"0px 0px 20px rgba(0, 0, 0, 0.08)",
             borderRadius:"6px",
-            border: "1px solid #F65936 ",
-            mt:1,
+           
+          
 
       }}
             
           
          
           >
-            <Stack direction="row" padding="15px" spacing={1}>
+            <Stack direction="row"  spacing={1}>
               <Stack direction="row" spacing={1}>
                 <SearchIcon sx={{ paddingLeft: "10px", color: "black" }} />
                 <InputBase
@@ -115,15 +117,53 @@ const ShopNavbarSatır1 = () => {
           {/* searchbar sonu */}
 
           {/* kalb ve diğerleri başlangıc */}
-          <Box sx={{
-            display: "flex",
-            flexDirection:"row",
-            justifyContent: "space-between",
+          <Stack direction="row" spacing={4} sx={{
+          
+          }} >
+            <Button variant="text"
+            startIcon={<FavoriteIcon/>}
+              size="large"
+              color="primary"
+              >
+                <Typography sx={{
+                textTransform: "capitalize",
+              }}>
+                   beğendiklerim
+                </Typography>
+             
+            </Button>
+            <Stack direction="row" spacing={4}>
+            <Badge variant="dot" color="success" >
+              <NotificationsIcon color="primary"/>
 
-          }}>
+            </Badge>
+            <Avatar sx={{
+              witdh:"38px",
+              height:"38px",
+            }}
+            src='https://randomuser.me/api/portraits/women/79.jpg'
+            alt='Jane Doe'
+          />
+          </Stack>
 
+          <Button
+              sx={{
+                width:"72px",
+                height:"32px",
+              }}
+              color="primary"
+              variant="contained"
+              textColor="myblack"
+              
+              endIcon={<LanguageSharpIcon color="myblack" />}
+            >
+              <Typography variant="subtitle" color="myblack">
+                TR:
+              </Typography>
+            </Button>
+           
 
-          </Box>
+          </Stack>
 
           {/* kalb ve diğerleri bitiş */}
 

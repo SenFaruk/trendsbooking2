@@ -1,8 +1,8 @@
 
 import React from 'react'
 import { Box } from '@mui/material'
-import ShopNavbarSatır1 from './ShopNavbarSatır1'
-import ShopNavbarSatır2 from './ShopNavbarSatır2'
+import ShopNavbarRow1 from './ShopNavbarRow1'
+import ShopNavbarRow2 from './ShopNavbarRow2'
 
 const ShopNavbar = () => {
   return (
@@ -15,8 +15,8 @@ const ShopNavbar = () => {
 
 
     }}>
-      <ShopNavbarSatır1 />
-      <ShopNavbarSatır2 />
+      <ShopNavbarRow1 />
+      <ShopNavbarRow2 />
 
     </Box>
   )

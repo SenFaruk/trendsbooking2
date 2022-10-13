@@ -21,7 +21,7 @@ const Views = () => {
   return (
     <ThemeProvider theme={theme}>
       <Navbar />
-      <Hero/>
+      {/* <Hero/>
      
       <NavItems/>
       <Highlights/>
@@ -33,7 +33,7 @@ const Views = () => {
       <Tektık/>
       <Mobiluygulama/>
       <Sıkcasorulansorular/>
-      <Footer/> 
+      <Footer/>  */}
     </ThemeProvider>
   );
 };
