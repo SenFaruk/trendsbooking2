@@ -5,7 +5,7 @@ function App() {
   return(
   
   <div className="App">
-    <Views/>
+    {/* <Views/> */}
     <Shop/>
   </div>) 
 }
