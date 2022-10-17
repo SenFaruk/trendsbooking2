@@ -21,7 +21,7 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import LanguageSharpIcon from "@mui/icons-material/LanguageSharp";
 
 
-const ShopNavbarSatır1 = () => {
+const ShopNavbarRow1 = () => {
   return (
     // container Box başlangıc
     <Box
@@ -268,4 +268,4 @@ const ShopNavbarSatır1 = () => {
   );
 };
 
-export default ShopNavbarSatır1;
+export default ShopNavbarRow1;
