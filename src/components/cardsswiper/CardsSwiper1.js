@@ -23,10 +23,7 @@ import {
   Box,
 } from "@mui/material";
 
-import Rectangle35 from "../../assets/Rectangle35.svg";
-import Rectangle36 from "../../assets/Rectangle36.svg";
-import Rectangle37 from "../../assets/Rectangle37.svg";
-import Rectangle38 from "../../assets/Rectangle38.svg";
+
 import yıldız from "../../assets/yıldız.svg";
 
 import { SwipperContainer } from "../../styles/cardsswipper";

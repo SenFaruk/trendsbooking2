@@ -21,19 +21,19 @@ const Views = () => {
   return (
     <ThemeProvider theme={theme}>
       {/* <Navbar /> */}
-      <Hero/>
+      {/* <Hero/> */}
      
-      {/* <NavItems/>
-      <Highlights/>
+      {/* <NavItems/> */}
+      {/* <Highlights/> */}
       <CardsSwiper1/>
-      <Ortalama/>
-      <Mutlu/>
-      <Cardcards/>
-      <Yazılım/>
-      <Tektık/>
-      <Mobiluygulama/>
-      <Sıkcasorulansorular/>
-      <Footer/>  */}
+      {/* <Ortalama/> */}
+      {/* <Mutlu/> */}
+      {/* <Cardcards/> */}
+      {/* <Yazılım/> */}
+      {/* <Tektık/> */}
+      {/* <Mobiluygulama/> */}
+      {/* <Sıkcasorulansorular/> */}
+      {/* <Footer/>  */}
     </ThemeProvider>
   );
 };
