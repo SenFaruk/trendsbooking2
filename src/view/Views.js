@@ -25,7 +25,7 @@ const Views = () => {
      
       {/* <NavItems/> */}
       {/* <Highlights/> */}
-      <CardsSwiper1/>
+      {/* <CardsSwiper1/> */}
       {/* <Ortalama/> */}
       {/* <Mutlu/> */}
       {/* <Cardcards/> */}

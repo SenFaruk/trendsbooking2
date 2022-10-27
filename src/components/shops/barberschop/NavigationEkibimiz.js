@@ -31,18 +31,22 @@ const NavigationEkibimiz = () => {
   return (
     <Box
       sx={{
-        width:"720px",
+     
         display: "flex",     
-        ml:4,
+      
       }}
     >
         {/* stack container */}
         <Stack  spacing={2}>
             <Box sx={{
-                width: "409px",
+                width: "509px",
                 height: "250px",
-                borderRadius: "10px",
                 background: `url(${harita})`,
+                borderRadius: "10px",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+               
             }}>
                  
             </Box>
@@ -60,7 +64,7 @@ const NavigationEkibimiz = () => {
           Ekibimiz
         </Typography>
         {/* Avatar stack container */}
-        <Stack direction="row" spacing={3}>
+        <Stack direction="row" spacing={6}>
 
             <Stack
   direction="column"
@@ -184,7 +188,7 @@ const NavigationEkibimiz = () => {
             height: "448px",    
             background: "#FAFAFA",
             borderRadius: "10px",
-            ml:3,
+            ml:5,
         }}>
 
         

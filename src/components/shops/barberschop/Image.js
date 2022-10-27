@@ -14,6 +14,7 @@ const Image = () => {
         height: "780px",
         borderRadius: "20px",
         mt: 4,
+        mr:3,
       }}
     >
       <Box

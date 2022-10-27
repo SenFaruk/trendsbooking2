@@ -5,10 +5,10 @@ const Hakkımızda = () => {
   return (
     <Box
       sx={{
-        width:"720px",
+       
         display: "flex",
         justifyContent: "space-between",
-        ml:4,
+       
       }}
     >
       <Stack direction="column" spacing={2}>

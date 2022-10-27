@@ -9,14 +9,14 @@ const RandevuAl = () => {
     // container
     <Box
       sx={{
-        width:"720px",
+      
         display: "flex",
         justifyContent: "space-between",
-        ml:4,
+      
       }}
     >
       {/* buttonlar */}
-      <Stack direction="row" spacing={2}>
+      <Stack direction="row" spacing={4}>
         <Button variant="contained" startIcon={<PhoneInTalkIcon />}
         sx={{
             width:"195px",

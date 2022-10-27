@@ -128,7 +128,6 @@ const Navbar = () => {
           <MenuIcon
           sx={{
             color: "#F65936",
-            // border:"3px solid #F75936",
             display: {
               xs: "block",
               sm: "block",
