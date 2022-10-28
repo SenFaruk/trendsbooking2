@@ -242,8 +242,9 @@ const NavigationEkibimiz = () => {
       </Table>
     </TableContainer>
     </Stack>
-        {/* çalışma saatleri */}
-        </Box>
+       
+        </Box> 
+      {/* çalışma saatleri */}
     </Box>
   )
 }

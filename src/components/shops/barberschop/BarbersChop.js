@@ -6,16 +6,23 @@ import Hakkımızda from "./Hakkımızda";
 import NavigationEkibimiz from "./NavigationEkibimiz";
 import Image from "./Image";
 import BarbersChop900px from "./BarbersChop900px";
+import BarbersChop600px from "./BarbersChop600px";
 
 const BarbersChop = () => {
   return (
     <Box> 
-         {/* 900px ekadar */}
+         {/* 1200px */}
     <Box
       sx={{
         width: "100%",
         background: "white",
-        display: "flex",
+        display: {
+          xs:"none",
+          sm: "none",
+          md: "flex",
+          xl: "flex",
+          lg: "flex",
+        },
         justifyContent: "space-around",
       }}
     >
@@ -44,10 +51,18 @@ const BarbersChop = () => {
 
       
     </Box>
-    {/* 900px ekadar */} 
+    {/* 1200px*/} 
+    <h1>devam .....</h1>
+    {/* 900px */}
     <Box>
     <BarbersChop900px/>
     </Box>
+     {/* 900px */}
+     {/* 600px */}
+    <Box>
+    <BarbersChop600px/>
+    </Box>
+    {/* 600px */}
 
     </Box>
   );

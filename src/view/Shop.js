@@ -7,8 +7,9 @@ import BarbersChop from '../components/shops/barberschop/BarbersChop';
 const Shop = () => {
   return (
     <ThemeProvider theme={theme}>
-       {/* <ShopNavbar/>  */}
-        <BarbersChop/>
+      {/* <ShopNavbar/>  */}
+      <BarbersChop/>
+   
     </ThemeProvider>
   )
 }
