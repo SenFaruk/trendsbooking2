@@ -39,6 +39,7 @@ const Hakkımızda = () => {
           time a sneak peek and a hobby 🔥individual approach to the client
           gives us a mega effective work ...
         </Typography>
+      
       </Stack>
     </Box>
   );

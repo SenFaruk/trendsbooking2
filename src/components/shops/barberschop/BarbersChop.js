@@ -7,6 +7,10 @@ import NavigationEkibimiz from "./NavigationEkibimiz";
 import Image from "./Image";
 import BarbersChop900px from "./BarbersChop900px";
 import BarbersChop600px from "./BarbersChop600px";
+import Hizmetler from "./Hizmetler";
+import PopülerHizmetler from "./PopülerHizmetler";
+import DigerHizmetler from "./DigerHizmetler";
+import Galeri from "./Galeri";
 
 const BarbersChop = () => {
   return (
@@ -29,7 +33,7 @@ const BarbersChop = () => {
       <Box
         sx={{
           width: "850px",
-          height: "783px",
+          height: "1783px",
           background: "white",
           display: "flex",
           flexDirection: "column",
@@ -43,6 +47,10 @@ const BarbersChop = () => {
         <RandevuAl />
         <Hakkımızda />
         <NavigationEkibimiz />
+        <Hizmetler/>
+        <PopülerHizmetler/>
+        <DigerHizmetler/>
+        <Galeri/>
        
       </Box>
       <Box>
@@ -51,8 +59,10 @@ const BarbersChop = () => {
 
       
     </Box>
+
+    
     {/* 1200px*/} 
-    <h1>devam .....</h1>
+   
     {/* 900px */}
     <Box>
     <BarbersChop900px/>
