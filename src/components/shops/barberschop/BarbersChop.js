@@ -11,6 +11,11 @@ import Hizmetler from "./Hizmetler";
 import PopülerHizmetler from "./PopülerHizmetler";
 import DigerHizmetler from "./DigerHizmetler";
 import Galeri from "./Galeri";
+import Yorumlar from "./Yorumlar";
+import FotograflıDegerlendirmeler from "./FotograflıDegerlendirmeler";
+import { Yorum6837 } from "./Yorum6837";
+import YıldızlıYorumlar from "./YıldızlıYorumlar";
+import Footer from "../../footer/Footer";
 
 const BarbersChop = () => {
   return (
@@ -33,7 +38,7 @@ const BarbersChop = () => {
       <Box
         sx={{
           width: "850px",
-          height: "1783px",
+          height: "2800px",
           background: "white",
           display: "flex",
           flexDirection: "column",
@@ -51,8 +56,19 @@ const BarbersChop = () => {
         <PopülerHizmetler/>
         <DigerHizmetler/>
         <Galeri/>
+        <Yorumlar/>
+        <FotograflıDegerlendirmeler/>
+        <Yorum6837 />
+        <YıldızlıYorumlar/>
+        <YıldızlıYorumlar/>
+        <YıldızlıYorumlar/>
+        <YıldızlıYorumlar/>
+        <YıldızlıYorumlar/>
+        <YıldızlıYorumlar/>
+        
        
       </Box>
+      
       <Box>
         <Image />
       </Box>
@@ -62,6 +78,7 @@ const BarbersChop = () => {
 
     
     {/* 1200px*/} 
+    <Footer/>
    
     {/* 900px */}
     <Box>

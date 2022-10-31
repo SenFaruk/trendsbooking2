@@ -74,8 +74,8 @@ const NavigationEkibimiz = () => {
 >
         <Avatar
             sx={{
-              width: "80px",
-              height: "60px",
+              width: "70px",
+              height: "70px",
             }}
             src="https://randomuser.me/api/portraits/women/79.jpg"
             alt="Jane Doe"
@@ -101,8 +101,8 @@ const NavigationEkibimiz = () => {
 >
         <Avatar
             sx={{
-              width: "80px",
-              height: "60px",
+              width: "70px",
+              height: "70px",
             }}
             src="https://randomuser.me/api/portraits/women/79.jpg"
             alt="Jane Doe"
@@ -128,8 +128,8 @@ const NavigationEkibimiz = () => {
 >
         <Avatar
             sx={{
-              width: "80px",
-              height: "60px",
+              width: "70px",
+              height: "70px",
             }}
             src="https://randomuser.me/api/portraits/women/79.jpg"
             alt="Jane Doe"
@@ -155,8 +155,8 @@ const NavigationEkibimiz = () => {
 >
         <Avatar
             sx={{
-              width: "80px",
-              height: "60px",
+              width: "70px",
+              height: "70px",
             }}
             src="https://randomuser.me/api/portraits/women/79.jpg"
             alt="Jane Doe"
