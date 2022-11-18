@@ -157,6 +157,7 @@ const NavigationEkibimiz = () => {
             sx={{
               width: "70px",
               height: "70px",
+             
             }}
             src="https://randomuser.me/api/portraits/women/79.jpg"
             alt="Jane Doe"

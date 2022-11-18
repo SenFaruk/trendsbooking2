@@ -8,13 +8,12 @@ import "swiper/css/pagination";
 
 
 
-const Image = () => {
+const Image900px = () => {
   return (
     <Box sx={{
       
-      width: "516px",
-      height: "780px",
-      // position: "fixed",
+        width: "820px",
+        height: "385px",
       
       
     }}>
@@ -34,8 +33,8 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
+        width: "820px",
+        height: "385px",
         borderRadius: "20px",
         mt: 4,
         mr:3,
@@ -83,7 +82,7 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         <SwiperSlide>
         <Box
       sx={{
@@ -92,8 +91,8 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
+        width: "820px",
+        height: "385px",
         borderRadius: "20px",
         mt: 4,
         mr:3,
@@ -141,7 +140,7 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         <SwiperSlide>
         <Box
       sx={{
@@ -150,8 +149,8 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
+        width: "820px",
+        height: "385px",
         borderRadius: "20px",
         mt: 4,
         mr:3,
@@ -199,7 +198,7 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         <SwiperSlide>
         <Box
       sx={{
@@ -208,8 +207,8 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
+        width: "820px",
+        height: "385px",
         borderRadius: "20px",
         mt: 4,
         mr:3,
@@ -257,7 +256,7 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         <SwiperSlide>
         <Box
       sx={{
@@ -266,8 +265,8 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
+        width: "820px",
+        height: "385px",
         borderRadius: "20px",
         mt: 4,
         mr:3,
@@ -315,7 +314,7 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         <SwiperSlide>
         <Box
       sx={{
@@ -324,8 +323,8 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
+        width: "820px",
+        height: "385px",
         borderRadius: "20px",
         mt: 4,
         mr:3,
@@ -373,7 +372,7 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         <SwiperSlide>
         <Box
       sx={{
@@ -382,8 +381,8 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
+        width: "820px",
+        height: "385px",
         borderRadius: "20px",
         mt: 4,
         mr:3,
@@ -431,11 +430,11 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         
       </Swiper>
     </Box>
   );
 }
 
-export default Image
+export default Image900px

@@ -62,6 +62,7 @@ const YıldızlıYorumlar = () => {
             fontSize: "14px",
             lineHeight: "21px",
             color: "#9A9A9A",
+          
           }}
         >
           Burak
@@ -99,7 +100,7 @@ const YıldızlıYorumlar = () => {
           amazed at the quality of barber.
         </Typography>
       </Box>
-      <Divider orientation="horizontal" flexItem />
+      <Divider orientation="horizontal" flexItem sx={{mt:4}}/>
     </>
   );
 };

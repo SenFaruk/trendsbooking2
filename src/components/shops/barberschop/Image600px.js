@@ -8,13 +8,13 @@ import "swiper/css/pagination";
 
 
 
-const Image = () => {
+const Image600px = () => {
   return (
     <Box sx={{
       
-      width: "516px",
-      height: "780px",
-      // position: "fixed",
+        width: "540px",
+        height: "324px",
+        ml:4,
       
       
     }}>
@@ -34,11 +34,10 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
-        borderRadius: "20px",
-        mt: 4,
-        mr:3,
+        width: "540px",
+        height: "324px",
+        borderRadius: "12px",
+        mt: 2,
       }}
     >
       <Box
@@ -47,11 +46,11 @@ const Image = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          width: "99px",
-          height: "99px",
-          background: "#000000",
+          width: "81px",
+          height: "66px",
+          background: "#07232C",
           opacity: 0.5,
-          borderRadius: "0px 20px 0px 0px",
+          borderRadius: "0px 12px 0px 0px",
           position: "absolute",
           right: "0px",
         }}
@@ -61,8 +60,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "600",
-            fontSize: "40px",
-            lineHeight: "47px",
+            fontSize: "26.6px",
+            lineHeight: "31px",
             color: "#FFFFFF",
           }}
         >
@@ -73,8 +72,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "400",
-            fontSize: "15px",
-            lineHeight: "18px",
+            fontSize: "10px",
+            lineHeight: "12px",
             color: "#FFFFFF",
           }}
         >
@@ -83,7 +82,7 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         <SwiperSlide>
         <Box
       sx={{
@@ -92,11 +91,10 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
-        borderRadius: "20px",
-        mt: 4,
-        mr:3,
+        width: "540px",
+        height: "324px",
+        borderRadius: "12px",
+        mt: 2,
       }}
     >
       <Box
@@ -105,11 +103,11 @@ const Image = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          width: "99px",
-          height: "99px",
-          background: "#000000",
+          width: "81px",
+          height: "66px",
+          background: "#07232C",
           opacity: 0.5,
-          borderRadius: "0px 20px 0px 0px",
+          borderRadius: "0px 12px 0px 0px",
           position: "absolute",
           right: "0px",
         }}
@@ -119,8 +117,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "600",
-            fontSize: "40px",
-            lineHeight: "47px",
+            fontSize: "26.6px",
+            lineHeight: "31px",
             color: "#FFFFFF",
           }}
         >
@@ -131,8 +129,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "400",
-            fontSize: "15px",
-            lineHeight: "18px",
+            fontSize: "10px",
+            lineHeight: "12px",
             color: "#FFFFFF",
           }}
         >
@@ -141,7 +139,7 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         <SwiperSlide>
         <Box
       sx={{
@@ -150,11 +148,10 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
-        borderRadius: "20px",
-        mt: 4,
-        mr:3,
+        width: "540px",
+        height: "324px",
+        borderRadius: "12px",
+        mt: 2,
       }}
     >
       <Box
@@ -163,11 +160,11 @@ const Image = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          width: "99px",
-          height: "99px",
-          background: "#000000",
+          width: "81px",
+          height: "66px",
+          background: "#07232C",
           opacity: 0.5,
-          borderRadius: "0px 20px 0px 0px",
+          borderRadius: "0px 12px 0px 0px",
           position: "absolute",
           right: "0px",
         }}
@@ -177,8 +174,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "600",
-            fontSize: "40px",
-            lineHeight: "47px",
+            fontSize: "26.6px",
+            lineHeight: "31px",
             color: "#FFFFFF",
           }}
         >
@@ -189,8 +186,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "400",
-            fontSize: "15px",
-            lineHeight: "18px",
+            fontSize: "10px",
+            lineHeight: "12px",
             color: "#FFFFFF",
           }}
         >
@@ -199,7 +196,7 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         <SwiperSlide>
         <Box
       sx={{
@@ -208,11 +205,10 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
-        borderRadius: "20px",
-        mt: 4,
-        mr:3,
+        width: "540px",
+        height: "324px",
+        borderRadius: "12px",
+        mt: 2,
       }}
     >
       <Box
@@ -221,11 +217,11 @@ const Image = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          width: "99px",
-          height: "99px",
-          background: "#000000",
+          width: "81px",
+          height: "66px",
+          background: "#07232C",
           opacity: 0.5,
-          borderRadius: "0px 20px 0px 0px",
+          borderRadius: "0px 12px 0px 0px",
           position: "absolute",
           right: "0px",
         }}
@@ -235,8 +231,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "600",
-            fontSize: "40px",
-            lineHeight: "47px",
+            fontSize: "26.6px",
+            lineHeight: "31px",
             color: "#FFFFFF",
           }}
         >
@@ -247,8 +243,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "400",
-            fontSize: "15px",
-            lineHeight: "18px",
+            fontSize: "10px",
+            lineHeight: "12px",
             color: "#FFFFFF",
           }}
         >
@@ -257,7 +253,7 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         <SwiperSlide>
         <Box
       sx={{
@@ -266,11 +262,10 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
-        borderRadius: "20px",
-        mt: 4,
-        mr:3,
+        width: "540px",
+        height: "324px",
+        borderRadius: "12px",
+        mt: 2,
       }}
     >
       <Box
@@ -279,11 +274,11 @@ const Image = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          width: "99px",
-          height: "99px",
-          background: "#000000",
+          width: "81px",
+          height: "66px",
+          background: "#07232C",
           opacity: 0.5,
-          borderRadius: "0px 20px 0px 0px",
+          borderRadius: "0px 12px 0px 0px",
           position: "absolute",
           right: "0px",
         }}
@@ -293,8 +288,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "600",
-            fontSize: "40px",
-            lineHeight: "47px",
+            fontSize: "26.6px",
+            lineHeight: "31px",
             color: "#FFFFFF",
           }}
         >
@@ -305,8 +300,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "400",
-            fontSize: "15px",
-            lineHeight: "18px",
+            fontSize: "10px",
+            lineHeight: "12px",
             color: "#FFFFFF",
           }}
         >
@@ -315,7 +310,7 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         <SwiperSlide>
         <Box
       sx={{
@@ -324,11 +319,10 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
-        borderRadius: "20px",
-        mt: 4,
-        mr:3,
+        width: "540px",
+        height: "324px",
+        borderRadius: "12px",
+        mt: 2,
       }}
     >
       <Box
@@ -337,11 +331,11 @@ const Image = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          width: "99px",
-          height: "99px",
-          background: "#000000",
+          width: "81px",
+          height: "66px",
+          background: "#07232C",
           opacity: 0.5,
-          borderRadius: "0px 20px 0px 0px",
+          borderRadius: "0px 12px 0px 0px",
           position: "absolute",
           right: "0px",
         }}
@@ -351,8 +345,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "600",
-            fontSize: "40px",
-            lineHeight: "47px",
+            fontSize: "26.6px",
+            lineHeight: "31px",
             color: "#FFFFFF",
           }}
         >
@@ -363,8 +357,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "400",
-            fontSize: "15px",
-            lineHeight: "18px",
+            fontSize: "10px",
+            lineHeight: "12px",
             color: "#FFFFFF",
           }}
         >
@@ -373,7 +367,7 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
         <SwiperSlide>
         <Box
       sx={{
@@ -382,11 +376,10 @@ const Image = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        width: "516px",
-        height: "780px",
-        borderRadius: "20px",
-        mt: 4,
-        mr:3,
+        width: "540px",
+        height: "324px",
+        borderRadius: "12px",
+        mt: 2,
       }}
     >
       <Box
@@ -395,11 +388,11 @@ const Image = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          width: "99px",
-          height: "99px",
-          background: "#000000",
+          width: "81px",
+          height: "66px",
+          background: "#07232C",
           opacity: 0.5,
-          borderRadius: "0px 20px 0px 0px",
+          borderRadius: "0px 12px 0px 0px",
           position: "absolute",
           right: "0px",
         }}
@@ -409,8 +402,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "600",
-            fontSize: "40px",
-            lineHeight: "47px",
+            fontSize: "26.6px",
+            lineHeight: "31px",
             color: "#FFFFFF",
           }}
         >
@@ -421,8 +414,8 @@ const Image = () => {
             fontFamily: "Roboto",
             fontStyle: "normal",
             fontWeight: "400",
-            fontSize: "15px",
-            lineHeight: "18px",
+            fontSize: "10px",
+            lineHeight: "12px",
             color: "#FFFFFF",
           }}
         >
@@ -431,11 +424,12 @@ const Image = () => {
       </Box>
     </Box>
 
-        </SwiperSlide>
+        </SwiperSlide>        
+            
         
       </Swiper>
     </Box>
   );
 }
 
-export default Image
+export default Image600px

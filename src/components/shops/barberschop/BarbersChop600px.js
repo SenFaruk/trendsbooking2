@@ -12,6 +12,15 @@ import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import harita from "../../../assets/haritaimg.png";
+import Image600px from "./Image600px";
+import Hizmetler from "./Hizmetler";
+import PopülerHizmetler from "./PopülerHizmetler";
+import DigerHizmetler from "./DigerHizmetler";
+import Galeri from "./Galeri";
+import Yorumlar from "./Yorumlar";
+import FotograflıDegerlendirmeler from "./FotograflıDegerlendirmeler";
+import { Yorum6837 } from "./Yorum6837";
+import YıldızlıYorumlar from "./YıldızlıYorumlar";
 
 function createData(day, hour ) {
   return { day, hour };
@@ -48,75 +57,7 @@ const BarbersChop600px = () => {
        
       }}
     >
-     {/* image */}
-     <Box sx={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-       
-         }}>
-
-        
-        <Box
-      sx={{
-        position: "relative",
-        background: `url(${Barber900px})`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        width: "540px",
-        height: "324px",
-        borderRadius: "12px",
-        mt: 2,
-       
-       
-      }}
-    >
-     
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          width: "81px",
-          height: "66px",
-          background: "#07232C",
-          opacity: 0.5,
-          borderRadius: "0px 12px 0px 0px",
-          position: "absolute",
-          right: "0px",
-        }}
-      >
-        <Typography
-          sx={{
-            fontFamily: "Roboto",
-            fontStyle: "normal",
-            fontWeight: "600",
-            fontSize: "26.6px",
-            lineHeight: "31px",
-            color: "#FFFFFF",
-          }}
-        >
-          4.8
-        </Typography>
-        <Typography
-          sx={{
-            fontFamily: "Roboto",
-            fontStyle: "normal",
-            fontWeight: "400",
-            fontSize: "10px",
-            lineHeight: "12px",
-            color: "#FFFFFF",
-          }}
-        >
-          220
-        </Typography>
-      </Box>
-      </Box>
-     
-    </Box>
-      {/* image */}
+     <Image600px/>
 
     {/* // container Barberschop Ciach & Style */}
     <Box
@@ -130,7 +71,7 @@ const BarbersChop600px = () => {
     >
       {/* Barberschop Ciach & Style */}
 
-      <Box  >
+      {/* <Box  >
         <Typography
           sx={{
             fontFamily: "Roboto",
@@ -160,7 +101,7 @@ const BarbersChop600px = () => {
       </Box>
       <Box>
         <FavoriteBorderIcon sx={{ fontSize: 35 }} />
-      </Box>
+      </Box> */}
 
       {/* Barberschop Ciach & Style */}
     </Box>
@@ -533,6 +474,12 @@ Tarık
 {/* Ekibimiz  */}
 </Box>
      {/*  çalışma saatleri ve ekibimiz */}
+
+<Box>
+  
+
+</Box>
+     
    
 
     </Box>

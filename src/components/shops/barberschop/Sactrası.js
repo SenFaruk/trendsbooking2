@@ -1,72 +1,18 @@
+import {
+  Box,
+  Button,
+  Divider,
+  Typography
+} from '@mui/material'
+
 import React from 'react'
-import { Box, Button, Divider, Typography } from '@mui/material'
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
 
-const PopülerHizmetler = () => {
-  const [value, setValue] = React.useState();
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
+const Sactrası = () => {
   return (
     // container
-    <Box > 
-      <Box sx={{
-        width:"400px",
-        my:3,
-      }}>
-      <Tabs
-        value={value}
-        onChange={handleChange}
-        textColor="secondary"
-        indicatorColor="secondary"
-        variant="fullWidth"
-        aria-label="secondary tabs example"
-        
-      >
-        <Tab
-          value="Erkek"
-          label="Erkek"
-          sx={{
-            textTransform: "capitalize",           
-           
-          }}
-        />
-        <Tab
-          value="Kadın"
-          label="Kadın"
-          sx={{
-            textTransform: "capitalize",           
-           
-          }}
-        />
-     
-      </Tabs>
-
-      </Box>
-       
-
+    <Box >   
     
-        {/* popüler hizmetler */}
-        <Box>
-      <Typography
-          sx={{
-            fontFamily: "Roboto",
-            fontStyle: "normal",
-            fontWeight: "600",
-            fontSize: "20px",
-            lineHeight: "23px",
-            color: "#07232C",
-          }}
-        >
-          Popüler Hizmetler
-        </Typography>
-
-      </Box>
-        {/* popüler hizmetler */}
-
-        {/* hizmetler container */}
+     
             <Box 
            sx={{
             display: "flex",
@@ -87,6 +33,7 @@ const PopülerHizmetler = () => {
             fontSize: "15px",
             lineHeight: "22px",
             color: "#07232C",
+            boxShadow: "none",
           }}
         >
           Saç Traşı
@@ -122,7 +69,6 @@ const PopülerHizmetler = () => {
             height:"34px",
             background:"#F75936",
             borderRadius:"6px", 
-            boxShadow: "none",
         }}
         
         >Randevu Al</Button>
@@ -276,4 +222,5 @@ const PopülerHizmetler = () => {
   )
 }
 
-export default PopülerHizmetler
+
+export default Sactrası

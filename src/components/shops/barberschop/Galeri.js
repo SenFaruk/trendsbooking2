@@ -66,7 +66,13 @@ const Galeri = () => {
     <Button variant="contained"
         sx={{
             textTransform: "capitalize",
-            width:"850px",
+            width:{
+              xs:"100px",
+              sm:"800px",
+              md:"850px",
+              xl:"850px",
+              lg:"850px",
+            },
             height:"45px",
             borderRadius:"6px", 
             border: "1px solid #07232C",

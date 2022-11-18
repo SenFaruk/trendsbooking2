@@ -4,7 +4,16 @@ import BarberschopStyle from "./BarberschopStyle";
 import Hakkımızda from "./Hakkımızda";
 import NavigationEkibimiz from "./NavigationEkibimiz";
 import RandevuAl from "./RandevuAl";
-import Barber900px from "../../../assets/Barber900px.png";
+import Image900px from "./Image900px";
+import Hizmetler from "./Hizmetler";
+import PopülerHizmetler from "./PopülerHizmetler";
+import DigerHizmetler from "./DigerHizmetler";
+import Galeri from "./Galeri";
+import Yorumlar from "./Yorumlar";
+import FotograflıDegerlendirmeler from "./FotograflıDegerlendirmeler";
+import { Yorum6837 } from "./Yorum6837";
+import YıldızlıYorumlar from "./YıldızlıYorumlar";
+
 
 const BarbersChop900px = () => {
   return (
@@ -24,7 +33,7 @@ const BarbersChop900px = () => {
       <Box
         sx={{
           width: "800px",
-          height: "1150px",
+          height: "4150px",
           background: "white",
           display: "flex",
           flexDirection: "column",
@@ -36,79 +45,29 @@ const BarbersChop900px = () => {
           
         }}
       >
-         {/* image */}
-         <Box sx={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-       
-         }}>
-
         
-        <Box
-      sx={{
-        position: "relative",
-        background: `url(${Barber900px})`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        width: "820px",
-        height: "385px",
-        borderRadius: "20px",
-        mt: 2,
-       
-       
-      }}
-    >
-     
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          width: "99px",
-          height: "99px",
-          background: "#000000",
-          opacity: 0.5,
-          borderRadius: "0px 20px 0px 0px",
-          position: "absolute",
-          right: "0px",
-        }}
-      >
-        <Typography
-          sx={{
-            fontFamily: "Roboto",
-            fontStyle: "normal",
-            fontWeight: "600",
-            fontSize: "40px",
-            lineHeight: "47px",
-            color: "#FFFFFF",
-          }}
-        >
-          4.8
-        </Typography>
-        <Typography
-          sx={{
-            fontFamily: "Roboto",
-            fontStyle: "normal",
-            fontWeight: "400",
-            fontSize: "15px",
-            lineHeight: "18px",
-            color: "#FFFFFF",
-          }}
-        >
-          220
-        </Typography>
-      </Box>
-      </Box>
-       {/* image */}
-    </Box>
+      <Image900px/>
       <BarberschopStyle />
       <RandevuAl />
       <Hakkımızda />
       <NavigationEkibimiz />
+      <Hizmetler />
+          <PopülerHizmetler />
+          <DigerHizmetler />
+          <Galeri />
+          <Yorumlar />
+          <FotograflıDegerlendirmeler />
+          <Yorum6837 />
+          <YıldızlıYorumlar />
+          <YıldızlıYorumlar />
+          <YıldızlıYorumlar />
+          <YıldızlıYorumlar />
+          <YıldızlıYorumlar />
+          <YıldızlıYorumlar />
+    
+     
       </Box>
+    
     </Box>
   );
 };
