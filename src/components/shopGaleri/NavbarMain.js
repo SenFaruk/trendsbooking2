@@ -1,13 +1,16 @@
 import { Box } from '@mui/material'
 import React from 'react'
+import ShopGaleri from '../../view/ShopGaleri'
+import Footer from '../footer/Footer'
 import BarberschopStyle from '../shops/barberschop/BarberschopStyle'
-import Galeri from '../shops/barberschop/Galeri'
+
 import Hakkımızda from '../shops/barberschop/Hakkımızda'
-import Hizmetler from '../shops/barberschop/Hizmetler'
+
 import Image from '../shops/barberschop/Image'
 import NavigationEkibimiz from '../shops/barberschop/NavigationEkibimiz'
 import RandevuAl from '../shops/barberschop/RandevuAl'
 import ShopNavbar from '../shops/navbar/ShopNavbar'
+import GaleriShop from './GaleriShop'
 import GeriDön from './GeriDön'
 
 const NavbarMain = () => {
@@ -28,7 +31,7 @@ const NavbarMain = () => {
         flexDirection: "column",
         justifyContent: "space-between",
         mt: 4,
-        ml: 3,
+        ml: 2,
       }}>
       <BarberschopStyle />
       <RandevuAl />
@@ -37,7 +40,7 @@ const NavbarMain = () => {
       </Box>
 
       <Box sx={{
-      ml:3
+      ml:5
       }}>
          <Image/>
       </Box>
@@ -47,6 +50,10 @@ const NavbarMain = () => {
 
       </Box>
       <GeriDön/>
+      <GaleriShop/>
+      <Footer/>
+    
+
 
      
         

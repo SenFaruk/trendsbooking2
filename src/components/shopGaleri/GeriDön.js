@@ -12,8 +12,10 @@ const GeriDön = () => {
             textTransform: "capitalize",
             width:"295px",
             height:"44px",
-            borderRadius:"6px",
-            boxShadow:"none", 
+           
+            boxShadow:"none",
+            ml:4,
+            mb:2, 
            
         }}>
          Mağaza Sayfasına Geri Dön
