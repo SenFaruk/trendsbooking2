@@ -8,7 +8,7 @@ import NavbarMain from '../components/shopGaleri/NavbarMain'
 const ShopGaleri = () => {
   return (
     <ThemeProvider theme={theme}>
-        <NavbarMain/>
+      <NavbarMain/>
     </ThemeProvider>
   )
 }

@@ -20,6 +20,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import LanguageSharpIcon from "@mui/icons-material/LanguageSharp";
 import android from "../../../assets/android.png";
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 
 const ShopNavbarRow1 = () => {
   return (
@@ -198,7 +199,7 @@ const ShopNavbarRow1 = () => {
             width:"300px",
           }}
         >
-          <img src={android} alt="" width="35px" height="35px" />
+          <CalendarMonthIcon />
 
           <FavoriteIcon />
           <Badge variant="dot" color="success">

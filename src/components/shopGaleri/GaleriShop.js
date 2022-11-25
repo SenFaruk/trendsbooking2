@@ -55,6 +55,7 @@ const GaleriShop = () => {
             background: "#000000",
             opacity: 0.5,
             position: "absolute",
+            borderRadius: "0px 0 12px  12px",
             right: "0px",
             bottom: "0px",
           }}
@@ -86,6 +87,7 @@ const GaleriShop = () => {
             background: "#000000",
             opacity: 0.5,
             position: "absolute",
+            borderRadius: "0px 0 12px  12px",
             right: "0px",
             bottom: "0px",
           }}
@@ -117,6 +119,7 @@ const GaleriShop = () => {
             background: "#000000",
             opacity: 0.5,
             position: "absolute",
+            borderRadius: "0px 0 12px  12px",
             right: "0px",
             bottom: "0px",
           }}
@@ -148,70 +151,7 @@ const GaleriShop = () => {
             background: "#000000",
             opacity: 0.5,
             position: "absolute",
-            right: "0px",
-            bottom: "0px",
-          }}
-        >
-          <img src={zincir} alt="" width="35px" height="35px" />
-          <FavoriteBorderIcon sx={{ color: "white", mx: 2 }} />
-        </Box>
-      </Box>
-         <Box
-        sx={{
-          position: "relative",
-          background: `url(${Rectangle189})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          width: "320px",
-          height: "320px",
-          borderRadius: "12px",
-          mx:2,
-          mt:3,
-        }}
-      >
-        <Box
-          sx={{
-            display: "flex",
-            justifyContent: "flex-end",
-            alignItems: "center",
-            width: "320px",
-            height: "60px",
-            background: "#000000",
-            opacity: 0.5,
-            position: "absolute",
-            right: "0px",
-            bottom: "0px",
-          }}
-        >
-          <img src={zincir} alt="" width="35px" height="35px" />
-          <FavoriteBorderIcon sx={{ color: "white", mx: 2 }} />
-        </Box>
-      </Box>
-      <Box
-        sx={{
-          position: "relative",
-          background: `url(${sakal})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          width: "320px",
-          height: "320px",
-          borderRadius: "12px",
-          mx:2,
-          mt:3,
-        }}
-      >
-        <Box
-          sx={{
-            display: "flex",
-            justifyContent: "flex-end",
-            alignItems: "center",
-            width: "320px",
-            height: "60px",
-            background: "#000000",
-            opacity: 0.5,
-            position: "absolute",
+            borderRadius: "0px 0 12px  12px",
             right: "0px",
             bottom: "0px",
           }}
@@ -244,6 +184,7 @@ const GaleriShop = () => {
             background: "#000000",
             opacity: 0.5,
             position: "absolute",
+            borderRadius: "0px 0 12px  12px",
             right: "0px",
             bottom: "0px",
           }}
@@ -276,6 +217,73 @@ const GaleriShop = () => {
             background: "#000000",
             opacity: 0.5,
             position: "absolute",
+            borderRadius: "0px 0 12px  12px",
+            right: "0px",
+            bottom: "0px",
+          }}
+        >
+          <img src={zincir} alt="" width="35px" height="35px" />
+          <FavoriteBorderIcon sx={{ color: "white", mx: 2 }} />
+        </Box>
+      </Box>
+         <Box
+        sx={{
+          position: "relative",
+          background: `url(${Rectangle189})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          width: "320px",
+          height: "320px",
+          borderRadius: "12px",
+          mx:2,
+          mt:3,
+        }}
+      >
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "flex-end",
+            alignItems: "center",
+            width: "320px",
+            height: "60px",
+            background: "#000000",
+            opacity: 0.5,
+            position: "absolute",
+            borderRadius: "0px 0 12px  12px",
+            right: "0px",
+            bottom: "0px",
+          }}
+        >
+          <img src={zincir} alt="" width="35px" height="35px" />
+          <FavoriteBorderIcon sx={{ color: "white", mx: 2 }} />
+        </Box>
+      </Box>
+      <Box
+        sx={{
+          position: "relative",
+          background: `url(${sakal})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          width: "320px",
+          height: "320px",
+          borderRadius: "12px",
+          mx:2,
+          mt:3,
+        }}
+      >
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "flex-end",
+            alignItems: "center",
+            width: "320px",
+            height: "60px",
+            background: "#000000",
+            opacity: 0.5,
+            position: "absolute",
+            borderRadius: "0px 0 12px  12px",
             right: "0px",
             bottom: "0px",
           }}

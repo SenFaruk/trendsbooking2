@@ -20,20 +20,20 @@ import Hero from "../components/hero/Hero";
 const Views = () => {
   return (
     <ThemeProvider theme={theme}>
-      {/* <Navbar /> */}
-      {/* <Hero/> */}
+      <Navbar />
+      <Hero/>
      
-      {/* <NavItems/> */}
-      {/* <Highlights/> */}
-      {/* <CardsSwiper1/> */}
-      {/* <Ortalama/> */}
-      {/* <Mutlu/> */}
-      {/* <Cardcards/> */}
-      {/* <Yazılım/> */}
-      {/* <Tektık/> */}
-      {/* <Mobiluygulama/> */}
-      {/* <Sıkcasorulansorular/> */}
-      {/* <Footer/>  */}
+      <NavItems/>
+      <Highlights/>
+      <CardsSwiper1/>
+      <Ortalama/>
+      <Mutlu/>
+      <Cardcards/>
+      <Yazılım/>
+      <Tektık/>
+      <Mobiluygulama/>
+      <Sıkcasorulansorular/>
+      <Footer/> 
     </ThemeProvider>
   );
 };
