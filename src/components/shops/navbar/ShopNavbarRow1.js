@@ -19,7 +19,7 @@ import DateRangeIcon from "@mui/icons-material/DateRange";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import LanguageSharpIcon from "@mui/icons-material/LanguageSharp";
-
+import android from "../../../assets/android.png";
 
 const ShopNavbarRow1 = () => {
   return (
@@ -41,7 +41,7 @@ const ShopNavbarRow1 = () => {
             sm: "none",
             md: "block",
           },
-          marginRight:"20px",
+          marginRight: "20px",
         }}
       >
         <Stack direction="row">
@@ -92,7 +92,7 @@ const ShopNavbarRow1 = () => {
 
       {/* TB başlangıç */}
       <Box
-      marginRight="30px"
+        marginRight="30px"
         sx={{
           display: {
             xs: "block",
@@ -187,52 +187,20 @@ const ShopNavbarRow1 = () => {
       {/* searchbar sonu */}
 
       {/* kalb ve diğerleri başlangıc */}
-      <Stack direction="row" spacing={4}>
+     
         {/* md button */}
-        <Button
-          variant="text"
-          startIcon={<FavoriteIcon />}
-          size="large"
-          color="primary"
+        <Box
           sx={{
-            display:{
-              xs: "none",
-              sm:"none",
-              md:"flex",
-            }
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            color: "white",          
+            width:"300px",
           }}
         >
-          <Typography
-            sx={{
-              textTransform: "capitalize",
-            }}
-          >
-            beğendiklerim
-          </Typography>
-        </Button>
-         {/* md button */}
-         {/* xs button */}
-         <Button
-          variant="text"
-          startIcon={<FavoriteIcon />}
-          size="large"
-          color="primary"
-          sx={{
-            display:{
-              xs: "block",
-              sm:"block",
-              md:"none",
-            }
-          }}
-        >
-         
-        </Button>
+          <img src={android} alt="" width="35px" height="35px" />
 
-         {/* xs button */}
-
-
-
-        <Stack direction="row" spacing={4}>
+          <FavoriteIcon />
           <Badge variant="dot" color="success">
             <NotificationsIcon color="primary" />
           </Badge>
@@ -244,12 +212,16 @@ const ShopNavbarRow1 = () => {
             src="https://randomuser.me/api/portraits/women/79.jpg"
             alt="Jane Doe"
           />
-        </Stack>
-
-        <Button
+           <Button
           sx={{
             width: "72px",
             height: "32px",
+            display:{
+              xs:"block",
+              md:"none",
+
+            },
+
           }}
           color="primary"
           variant="contained"
@@ -260,7 +232,16 @@ const ShopNavbarRow1 = () => {
             TR:
           </Typography>
         </Button>
-      </Stack>
+        </Box>
+
+       
+
+        
+          
+       
+
+       
+   
 
       {/* kalb ve diğerleri bitiş */}
     </Box>

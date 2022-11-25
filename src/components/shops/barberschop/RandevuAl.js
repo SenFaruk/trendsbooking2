@@ -18,10 +18,13 @@ const RandevuAl = () => {
       {/* buttonlar */}
       <Stack direction="row" spacing={4}>
         <Button variant="contained" startIcon={<PhoneInTalkIcon />}
+        disableRipple="true"
         sx={{
             width:"195px",
             height:"44px",
-            borderRadius:"6px", 
+            borderRadius:"6px",
+            boxShadow:"none", 
+            border: "1px solid #07232C",
         }}>
           0505 735 82 25
         </Button>
@@ -32,6 +35,8 @@ const RandevuAl = () => {
             height:"44px",
             background:"#F75936",
             borderRadius:"6px", 
+            boxShadow:"none", 
+            color:"#FFFFFF",
         }}
         
         >Randevu Al</Button>

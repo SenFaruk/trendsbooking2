@@ -64,12 +64,15 @@ const Sactrası = () => {
         </Typography>
         <Button variant="contained"
         sx={{
-            textTransform: "capitalize",
-            width:"113px",
-            height:"34px",
-            background:"#F75936",
-            borderRadius:"6px", 
-        }}
+          textTransform: "capitalize",
+          width:"113px",
+          height:"34px",
+          background:"#F75936",
+          borderRadius:"6px", 
+          boxShadow: "none",
+          color:"#FFFFFF",
+          boxShadow:"none",
+      }}
         
         >Randevu Al</Button>
 
@@ -130,13 +133,16 @@ const Sactrası = () => {
           120
         </Typography>
         <Button variant="contained"
-        sx={{
-            textTransform: "capitalize",
-            width:"113px",
-            height:"34px",
-            background:"#F75936",
-            borderRadius:"6px", 
-        }}
+         sx={{
+          textTransform: "capitalize",
+          width:"113px",
+          height:"34px",
+          background:"#F75936",
+          borderRadius:"6px", 
+          boxShadow: "none",
+          color:"#FFFFFF",
+          boxShadow:"none",
+      }}
         
         >Randevu Al</Button>
 
@@ -197,13 +203,16 @@ const Sactrası = () => {
           120
         </Typography>
         <Button variant="contained"
-        sx={{
-            textTransform: "capitalize",
-            width:"113px",
-            height:"34px",
-            background:"#F75936",
-            borderRadius:"6px", 
-        }}
+         sx={{
+          textTransform: "capitalize",
+          width:"113px",
+          height:"34px",
+          background:"#F75936",
+          borderRadius:"6px", 
+          boxShadow: "none",
+          color:"#FFFFFF",
+          boxShadow:"none",
+      }}
         
         >Randevu Al</Button>
 

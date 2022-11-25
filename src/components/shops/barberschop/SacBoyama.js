@@ -61,12 +61,15 @@ import {
           </Typography>
           <Button variant="contained"
           sx={{
-              textTransform: "capitalize",
-              width:"113px",
-              height:"34px",
-              background:"#F75936",
-              borderRadius:"6px", 
-          }}
+            textTransform: "capitalize",
+            width:"113px",
+            height:"34px",
+            background:"#F75936",
+            borderRadius:"6px", 
+            boxShadow: "none",
+            color:"#FFFFFF",
+            boxShadow:"none",
+        }}
           
           >Randevu Al</Button>
   
@@ -127,19 +130,21 @@ import {
             120
           </Typography>
           <Button variant="contained"
-          sx={{
-              textTransform: "capitalize",
-              width:"113px",
-              height:"34px",
-              background:"#F75936",
-              borderRadius:"6px", 
-          }}
+           sx={{
+            textTransform: "capitalize",
+            width:"113px",
+            height:"34px",
+            background:"#F75936",
+            borderRadius:"6px", 
+            boxShadow: "none",
+            color:"#FFFFFF",
+            boxShadow:"none",
+        }}
           
           >Randevu Al</Button>
   
                   </Box>
-                  {/* fiyat ve rendavu al */}
-  
+                  {/* fiyat ve rendavu al */}  
   
               </Box>
           
@@ -194,13 +199,16 @@ import {
             120
           </Typography>
           <Button variant="contained"
-          sx={{
-              textTransform: "capitalize",
-              width:"113px",
-              height:"34px",
-              background:"#F75936",
-              borderRadius:"6px", 
-          }}
+           sx={{
+            textTransform: "capitalize",
+            width:"113px",
+            height:"34px",
+            background:"#F75936",
+            borderRadius:"6px", 
+            boxShadow: "none",
+            color:"#FFFFFF",
+            boxShadow:"none",
+        }}
           
           >Randevu Al</Button>
   

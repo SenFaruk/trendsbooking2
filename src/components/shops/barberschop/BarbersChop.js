@@ -41,7 +41,7 @@ const BarbersChop = () => {
         <Box
           sx={{
             width: "850px",
-            height: "2900px",
+            height: "3400px",
             background: "white",
             display: "flex",
             flexDirection: "column",

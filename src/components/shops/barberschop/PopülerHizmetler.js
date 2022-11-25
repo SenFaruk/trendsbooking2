@@ -123,6 +123,8 @@ const PopülerHizmetler = () => {
             background:"#F75936",
             borderRadius:"6px", 
             boxShadow: "none",
+            color:"#FFFFFF",
+            boxShadow:"none",
         }}
         
         >Randevu Al</Button>
@@ -190,6 +192,8 @@ const PopülerHizmetler = () => {
             height:"34px",
             background:"#F75936",
             borderRadius:"6px", 
+            color:"#FFFFFF",
+            boxShadow:"none",
         }}
         
         >Randevu Al</Button>
@@ -256,7 +260,9 @@ const PopülerHizmetler = () => {
             width:"113px",
             height:"34px",
             background:"#F75936",
-            borderRadius:"6px", 
+            borderRadius:"6px",
+            color:"#FFFFFF", 
+            boxShadow:"none",
         }}
         
         >Randevu Al</Button>

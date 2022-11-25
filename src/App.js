@@ -8,9 +8,9 @@ function App() {
   
   <div className="App">
    {/* <Views/>  */}
-    <Shop/>
-    {/* <ShopGaleri/> */}
-    {/* <Sactrası/> */}
+    {/* <Shop/> */}
+    <ShopGaleri/>
+    
   </div>) 
 }
 
